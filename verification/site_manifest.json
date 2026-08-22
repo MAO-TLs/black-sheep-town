@@ -1,0 +1,89 @@
+{
+  "archive": {
+    "bytes": 83816407,
+    "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.0.0/BLACK_SHEEP_TOWN_English_v1.0.0.zip",
+    "name": "BLACK_SHEEP_TOWN_English_v1.0.0.zip",
+    "sha256": "0bbab0b27803db47f5a50da7dbd28375de03e57a3ea0d18c0e3b14541502619c"
+  },
+  "checks": {
+    "archive_hash_bound_twice": true,
+    "archive_size_bound": true,
+    "download_url_bound": true,
+    "hero_title_exact_stack": true,
+    "installer_validation_passed": true,
+    "obsolete_dll_architecture_absent": true,
+    "obsolete_scenario_bundle_absent": true,
+    "script_opens_directly": true,
+    "single_file_install_architecture": true,
+    "spoiler_gate_absent": true,
+    "supported_source_hash_bound": true,
+    "wine_named_crossover_absent": true
+  },
+  "files": {
+    "README.txt": {
+      "bytes": 734,
+      "sha256": "d7ad1777ed3f9159c8af7f226570b747a6c98230b93fe4daf36bee5446d8a69e"
+    },
+    "app.js": {
+      "bytes": 13547,
+      "sha256": "7480a328a8ea54450a781b03b9bb77d85764b5167791d6470b13b5bebd595846"
+    },
+    "browser_manifest.json": {
+      "bytes": 4313,
+      "sha256": "bdb8c36e90d73a96e493f65f832df8add67a3d0f4df35c2a7c48f5e009fd0f2e"
+    },
+    "bst-city-ink-hero-v1.png": {
+      "bytes": 1122010,
+      "sha256": "9dd59db3b68e3bbf48d57ba5e47b49b2a454d1ca50dfff0c3fa023ae7ab94951"
+    },
+    "data.js": {
+      "bytes": 17719161,
+      "sha256": "6964ab3226f2b42ce0b2186eae4d0a19d62612ecef89844c68f14c9cf8ffd2fd"
+    },
+    "index.html": {
+      "bytes": 5793,
+      "sha256": "4fbc61d7fe5103652b02ee2fb6fd5e3e536b65e6a7d9c016cc29134becd6baa3"
+    },
+    "mao-publication-template.css": {
+      "bytes": 3375,
+      "sha256": "ba5e364b91a96297549ae7c552769af9cff01ae044b15c658e770fd2a55e6d7a"
+    },
+    "mao-reader-template.css": {
+      "bytes": 28288,
+      "sha256": "0a5a4f1b2845f1ae2ec1de17d5b887bd2da77d40605337fc419d8d33331da30a"
+    },
+    "script.html": {
+      "bytes": 3908,
+      "sha256": "e618673013813676ee5aecf63067171dc87d82fe04df2c63f68756a202c54b2b"
+    },
+    "styles.css": {
+      "bytes": 11738,
+      "sha256": "d9ebb0354c682ee619076887b6dee47273af4211821dbe1a6074149e28c16dd0"
+    }
+  },
+  "format": "mao-bst-release-site-manifest-v1",
+  "installer_validation": {
+    "checks": {
+      "corrupt_payload_rejected": true,
+      "english_restore_backup_hash_exact": true,
+      "failed_install_transaction_restored_source": true,
+      "fast_reinstall_hash_exact": true,
+      "fresh_source_verified": true,
+      "game_launches": 0,
+      "install_rebuild_hash_exact": true,
+      "installed_verification_passed": true,
+      "japanese_backup_hash_exact": true,
+      "package_member_hashes_exact": true,
+      "public_instructions_match_verified_architecture": true,
+      "repeat_install_idempotent": true,
+      "restore_hash_exact": true,
+      "restored_verification_passed": true,
+      "zip_topology_safe": true
+    },
+    "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
+    "status": "passed",
+    "target_sha256": "3946f18a3f0abe3f46b9266272c2848c1d2deafb427ea3a5b62ca580c4cbeeed"
+  },
+  "release": "v1.0.0",
+  "status": "installer_verified_release_site"
+}

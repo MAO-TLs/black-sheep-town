@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "0bbab0b27803db47f5a50da7dbd28375de03e57a3ea0d18c0e3b14541502619c",
+  "checks": {
+    "corrupt_payload_rejected": true,
+    "english_restore_backup_hash_exact": true,
+    "failed_install_transaction_restored_source": true,
+    "fast_reinstall_hash_exact": true,
+    "fresh_source_verified": true,
+    "game_launches": 0,
+    "install_rebuild_hash_exact": true,
+    "installed_verification_passed": true,
+    "japanese_backup_hash_exact": true,
+    "package_member_hashes_exact": true,
+    "public_instructions_match_verified_architecture": true,
+    "repeat_install_idempotent": true,
+    "restore_hash_exact": true,
+    "restored_verification_passed": true,
+    "zip_topology_safe": true
+  },
+  "format": "mao-bst-complete-patcher-release-validation-v1",
+  "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
+  "status": "passed",
+  "target_sha256": "3946f18a3f0abe3f46b9266272c2848c1d2deafb427ea3a5b62ca580c4cbeeed"
+}
