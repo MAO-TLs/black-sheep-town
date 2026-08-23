@@ -2,9 +2,12 @@
 
 The first complete MAO English release of *BLACK SHEEP TOWN*.
 
-The v1.0.0 archive was refreshed in place to preserve a repeated source ruby
-mechanism consistently across one translated line. Versioning and runtime
-behavior are unchanged.
+The v1.0.0 archive was refreshed in place after a complete source-locked
+specificity and literary-texture audit. Nineteen English lines were revised
+where the Japanese supported a more exact or evocative expression that an
+English novelist could naturally defend. Facts, implications, terminology,
+markup, script topology, and runtime behavior are unchanged. This refresh also
+retains the earlier source-ruby correction.
 
 ## Included
 
@@ -21,4 +24,4 @@ Download and extract `BLACK_SHEEP_TOWN_English_v1.0.0.zip`, then follow the
 
 ## SHA-256
 
-`d56f72dd693996cf6360f7f1c8f959adea61e154059dfae428a9b2d6e727ca4f`
+`9c3af0ec94f0bc5fb8ef7a29d6e9ad34b67cbd462c24d55ebecf6970b15bc0ac`

@@ -1,0 +1,28 @@
+{
+  "format": "mao-bst-source-descriptor-inventory-v1",
+  "status": "screen_complete_pending_editorial_adjudication",
+  "source": {
+    "path": "whole_work_edit/adjudication/release_frozen_translation_rows.tsv",
+    "rows": 28660,
+    "sha256": "0594efcb39d5e98dc1c6183d8e234456d61800accfed17099f33cb03e37c105b"
+  },
+  "inventory": {
+    "parts_of_speech": [
+      "副詞",
+      "形容詞",
+      "形状詞"
+    ],
+    "types": 1788,
+    "occurrences": 50260,
+    "types_at_most_10_occurrences": 1342,
+    "rare_sino_or_mixed_kanji_types": 287,
+    "inventory_path": "descriptor_inventory.json",
+    "rare_inventory_path": "rare_kanji_descriptors.json"
+  },
+  "checks": {
+    "source_rows_unchanged": true,
+    "source_refs_unique": true,
+    "published_files_touched": false,
+    "game_launches": 0
+  }
+}

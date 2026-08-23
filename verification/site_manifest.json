@@ -1,9 +1,9 @@
 {
   "archive": {
-    "bytes": 83816425,
+    "bytes": 83816588,
     "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.0.0/BLACK_SHEEP_TOWN_English_v1.0.0.zip",
     "name": "BLACK_SHEEP_TOWN_English_v1.0.0.zip",
-    "sha256": "d56f72dd693996cf6360f7f1c8f959adea61e154059dfae428a9b2d6e727ca4f"
+    "sha256": "9c3af0ec94f0bc5fb8ef7a29d6e9ad34b67cbd462c24d55ebecf6970b15bc0ac"
   },
   "checks": {
     "archive_hash_bound_twice": true,
@@ -30,15 +30,15 @@
     },
     "browser_manifest.json": {
       "bytes": 4570,
-      "sha256": "147c22776d1292337f8a59cf441edad1f909b0c83d9e97bd5027470afb31fd7b"
+      "sha256": "dd630852d82fa8965fd4f70cc01d8499b11391a59874f3f42b6ff72a18cf28d1"
     },
     "bst-city-ink-hero-v1.png": {
       "bytes": 1122010,
       "sha256": "9dd59db3b68e3bbf48d57ba5e47b49b2a454d1ca50dfff0c3fa023ae7ab94951"
     },
     "data.js": {
-      "bytes": 17719196,
-      "sha256": "6600a8331fc51e2fdd0adde73bb2f976ee0066240db87329717df84cc689c7b5"
+      "bytes": 17719258,
+      "sha256": "5cde02fcefbe0d9370ab3f4b201a9e053b1f060db0f6f829bebd662602567391"
     },
     "favicon.svg": {
       "bytes": 507,
@@ -46,7 +46,7 @@
     },
     "index.html": {
       "bytes": 5933,
-      "sha256": "c5f4b2bddf8c67bf029de4bdbdd4e3a6f2e9c86502fe694dee153a4354f872c8"
+      "sha256": "d2d571912b360546b9b41962f5ca79b16253861c0f559ddfe0fea0cdf8fb814a"
     },
     "mao-publication-template.css": {
       "bytes": 3375,
@@ -86,7 +86,7 @@
     },
     "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
     "status": "passed",
-    "target_sha256": "bed94e20a3b3bca8e164a28ad51c51583d363cbae33c4fba44d8c77fae10f0f0"
+    "target_sha256": "62e0b06a071986acc8e7914d98d740ae3e12c87bc26d32895819b3c5fdcb9c3a"
   },
   "release": "v1.0.0",
   "status": "installer_verified_release_site"

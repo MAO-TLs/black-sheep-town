@@ -1,0 +1,33 @@
+{
+  "format": "mao-bst-ornate-specificity-revision-manifest-v1",
+  "status": "local_revision_complete_unpublished",
+  "contract": "AUDIT_CONTRACT.md",
+  "baseline": {
+    "path": "whole_work_edit/adjudication/release_frozen_translation_rows_pre_ornate_specificity.tsv",
+    "rows": 28660,
+    "sha256": "0594efcb39d5e98dc1c6183d8e234456d61800accfed17099f33cb03e37c105b"
+  },
+  "revision": {
+    "accepted_rows": 19,
+    "changed_refs_unique": 19,
+    "output": "working_translation_rows.tsv",
+    "output_sha256": "1cc2e8c9acae5db9213d35f4afae92abfb1d5a6aac3d753c9a5aec4ff0e58355",
+    "ledger": "change_ledger.tsv",
+    "ledger_sha256": "30f7d59dc768856167a9e88baa5af5ab813e586fa61287a913852042636bee7d"
+  },
+  "checks": {
+    "only_english_changed": true,
+    "row_count_preserved": true,
+    "ref_order_preserved": true,
+    "source_and_metadata_preserved": true,
+    "changed_markup_preserved": true,
+    "blank_english_rows": 0,
+    "tips_mismatch_rows": 0,
+    "unfinished_markup_rows": 0,
+    "placeholder_rows": 0,
+    "published_files_touched": false,
+    "patch_files_touched": false,
+    "website_files_touched": false,
+    "game_launches": 0
+  }
+}
