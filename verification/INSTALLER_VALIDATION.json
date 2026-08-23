@@ -1,5 +1,5 @@
 {
-  "archive_sha256": "0bbab0b27803db47f5a50da7dbd28375de03e57a3ea0d18c0e3b14541502619c",
+  "archive_sha256": "d56f72dd693996cf6360f7f1c8f959adea61e154059dfae428a9b2d6e727ca4f",
   "checks": {
     "corrupt_payload_rejected": true,
     "english_restore_backup_hash_exact": true,
@@ -20,5 +20,5 @@
   "format": "mao-bst-complete-patcher-release-validation-v1",
   "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
   "status": "passed",
-  "target_sha256": "3946f18a3f0abe3f46b9266272c2848c1d2deafb427ea3a5b62ca580c4cbeeed"
+  "target_sha256": "bed94e20a3b3bca8e164a28ad51c51583d363cbae33c4fba44d8c77fae10f0f0"
 }

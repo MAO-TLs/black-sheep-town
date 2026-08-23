@@ -19,10 +19,10 @@ contain the Japanese game.
 
 ## Integrity
 
-- Patch archive SHA-256: `0bbab0b27803db47f5a50da7dbd28375de03e57a3ea0d18c0e3b14541502619c`
+- Patch archive SHA-256: `d56f72dd693996cf6360f7f1c8f959adea61e154059dfae428a9b2d6e727ca4f`
 - Supported Japanese `data.unity3d` SHA-256: `0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc`
-- Installed English `data.unity3d` SHA-256: `3946f18a3f0abe3f46b9266272c2848c1d2deafb427ea3a5b62ca580c4cbeeed`
-- Canonical translation TSV SHA-256: `f48e89739383ecedf90dc1e95ed94159ed9a0a533acdaed96b4181d3adbb342f`
+- Installed English `data.unity3d` SHA-256: `bed94e20a3b3bca8e164a28ad51c51583d363cbae33c4fba44d8c77fae10f0f0`
+- Canonical translation TSV SHA-256: `0594efcb39d5e98dc1c6183d8e234456d61800accfed17099f33cb03e37c105b`
 
 The verification records in this repository cover archive topology, member
 hashes, a clean install, repeated install, verification, Japanese restoration,

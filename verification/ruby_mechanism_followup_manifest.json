@@ -1,0 +1,32 @@
+{
+  "format": "mao-bst-ruby-mechanism-followup-v1",
+  "release": "v1.0.0",
+  "status": "passed",
+  "scope": "bounded post-review English revision preserving a repeated source ruby mechanism",
+  "input": {
+    "rows": 28660,
+    "sha256": "f48e89739383ecedf90dc1e95ed94159ed9a0a533acdaed96b4181d3adbb342f"
+  },
+  "output": {
+    "rows": 28660,
+    "sha256": "0594efcb39d5e98dc1c6183d8e234456d61800accfed17099f33cb03e37c105b"
+  },
+  "revision": {
+    "ref": "bst:bst_x:X1:r4",
+    "changed_fields": [
+      "English"
+    ],
+    "ledger": "revision.tsv",
+    "ledger_sha256": "8346c41865d8974999a452637d167141343f4d8b71346b1401395122318a4ec1"
+  },
+  "checks": {
+    "row_count_exact": true,
+    "ref_order_exact": true,
+    "only_listed_english_field_changed": true,
+    "non_english_fields_byte_for_byte_equal": true,
+    "blank_english_rows": 0,
+    "tips_markup_mismatches": 0,
+    "canonical_public_byte_identical": true,
+    "game_launches": 0
+  }
+}

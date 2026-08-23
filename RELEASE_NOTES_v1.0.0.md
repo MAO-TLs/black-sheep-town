@@ -2,6 +2,10 @@
 
 The first complete MAO English release of *BLACK SHEEP TOWN*.
 
+The v1.0.0 archive was refreshed in place to preserve a repeated source ruby
+mechanism consistently across one translated line. Versioning and runtime
+behavior are unchanged.
+
 ## Included
 
 - Complete English game script
@@ -17,4 +21,4 @@ Download and extract `BLACK_SHEEP_TOWN_English_v1.0.0.zip`, then follow the
 
 ## SHA-256
 
-`0bbab0b27803db47f5a50da7dbd28375de03e57a3ea0d18c0e3b14541502619c`
+`d56f72dd693996cf6360f7f1c8f959adea61e154059dfae428a9b2d6e727ca4f`
