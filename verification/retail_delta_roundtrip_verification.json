@@ -1,0 +1,51 @@
+{
+  "format": "mao-bst-retail-semantic-final-delta-verification-v1",
+  "status": "passed",
+  "game_launched": false,
+  "projection": {
+    "receipt": "../../private/production-v1/steam_source_v1/projected-retail-semantic-final-v1/receipt.json",
+    "receipt_sha256": "5064e9ee353939b74679000ffb2e14930af58182951a21d5fa9bc661e95ed715",
+    "alignment_sha256": "0d66373e15359639ffb0021c99ff86d735ff34ede06c967dace89fc75c2227e4",
+    "steam_visible_rows_projected": 29753
+  },
+  "native_donor": {
+    "manifest": "../retail-build-semantic-final-v1/PATCH_MANIFEST.json",
+    "manifest_sha256": "f9fa4d756d357aa751cd1fc9209bac9a1a74866752233c27248af442239be9ce",
+    "bundle": "../retail-build-semantic-final-v1/data.unity3d",
+    "bytes": 2035524796,
+    "sha256": "26663583e66a0a6400078b4ae3d5f1fe9aa997f302d40fcae886b005d104ec2b"
+  },
+  "surgical_target": {
+    "manifest": "../retail-build-semantic-final-v1/surgical/PATCH_MANIFEST.json",
+    "manifest_sha256": "9ba8fb5f81732c123543ebfbb5b1ffcc61a5c1d659563ef3b760ca25f0960b5d",
+    "bundle": "../retail-build-semantic-final-v1/surgical/data.unity3d",
+    "bytes": 2027903809,
+    "sha256": "9848cc7b1a7e649dd2985df1100b3aa60ab5f03a6479abea3d338989842c470b"
+  },
+  "delta": {
+    "manifest": "manifest.json",
+    "manifest_sha256": "d02562e8f6deaadc829514623ef1fe834200fc7f9b588a2d5589a9242dc8d784",
+    "format": "mao-bst-unityfs-delta-v1",
+    "payload_bytes": 83856922,
+    "blocks_total": 25399,
+    "blocks_reused_verbatim": 24437,
+    "blocks_stored_as_literals": 962
+  },
+  "roundtrip": {
+    "rebuilt_bytes": 2027903809,
+    "rebuilt_sha256": "9848cc7b1a7e649dd2985df1100b3aa60ab5f03a6479abea3d338989842c470b",
+    "target_byte_exact": true
+  },
+  "checks": {
+    "projection_receipt_and_output_hashes_match": true,
+    "native_manifest_inputs_and_output_hashes_match": true,
+    "native_static_and_reload_checks_pass": true,
+    "native_runtime_smoke_remains_pending_without_game_launch": true,
+    "surgical_source_and_donor_bindings_match": true,
+    "surgical_output_hash_matches": true,
+    "surgical_source_block_count_preserved": true,
+    "delta_source_and_target_bindings_match": true,
+    "delta_payload_part_sizes_and_hashes_match": true,
+    "delta_roundtrip_rebuild_is_byte_exact": true
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "counts": {
+    "blocks_delete": 2,
+    "blocks_equal": 727,
+    "blocks_insert": 3,
+    "blocks_replace": 659,
+    "retail_slots_with_multiple_steam_rows": 45,
+    "retail_supported_tips_ids": 96,
+    "retail_visible_slots": 29688,
+    "retail_visible_slots_assigned": 29685,
+    "retail_visible_slots_removed": 3,
+    "runtime_markup_adaptations": 35,
+    "steam_tips_ids_absent_from_retail": [
+      98
+    ],
+    "steam_visible_rows_projected": 29753
+  },
+  "format": "mao-bst-steam-manuscript-to-retail-projection-v1",
+  "inputs": {
+    "retail_receipt": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/source/retail-compiled/receipt.json",
+      "sha256": "b2a62011a16596423a411d58638c25d912a022a359d0bfcbf6eaa417ce27de4d"
+    },
+    "retail_topology_rows": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/source/retail-compiled/retail_compiled_authority_rows.tsv",
+      "sha256": "922c95b313b9a1606aa8025e19ed44b697f68e51e7274b84e7ea06608e8a5fa6"
+    },
+    "steam_receipt": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-steam-semantic-final-v1/receipt.json",
+      "sha256": "d5f1eba1e4094e22a48a1b76bca4595cc0056d0510dd8bbe890c8810129bcdb1"
+    },
+    "steam_visible_rows": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-steam-semantic-final-v1/steam_compiled_visible_rows.tsv",
+      "sha256": "e48a141e22b67626455584a8202e392486027f01ad32a3968abf379baed91d65"
+    }
+  },
+  "output": {
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/projected-retail-semantic-final-v1/steam_to_retail_compiled_alignment.tsv",
+    "sha256": "0d66373e15359639ffb0021c99ff86d735ff34ede06c967dace89fc75c2227e4"
+  },
+  "routes": [
+    {
+      "blocks_delete": 1,
+      "blocks_equal": 32,
+      "blocks_insert": 1,
+      "blocks_replace": 29,
+      "retail_rows_in_block": 705,
+      "retail_visible_slots": 705,
+      "runtime_asset": "A1",
+      "steam_rows_projected": 713,
+      "steam_visible_rows": 713
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 426,
+      "retail_visible_slots": 426,
+      "runtime_asset": "A2-1",
+      "steam_rows_projected": 426,
+      "steam_visible_rows": 426
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 517,
+      "retail_visible_slots": 517,
+      "runtime_asset": "A2-2",
+      "steam_rows_projected": 517,
+      "steam_visible_rows": 517
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 690,
+      "retail_visible_slots": 690,
+      "runtime_asset": "A3",
+      "steam_rows_projected": 690,
+      "steam_visible_rows": 690
+    },
+    {
+      "blocks_equal": 10,
+      "blocks_replace": 9,
+      "retail_rows_in_block": 497,
+      "retail_visible_slots": 497,
+      "runtime_asset": "A4",
+      "steam_rows_projected": 497,
+      "steam_visible_rows": 497
+    },
+    {
+      "blocks_equal": 16,
+      "blocks_replace": 15,
+      "retail_rows_in_block": 781,
+      "retail_visible_slots": 781,
+      "runtime_asset": "A5",
+      "steam_rows_projected": 781,
+      "steam_visible_rows": 781
+    },
+    {
+      "blocks_equal": 13,
+      "blocks_replace": 12,
+      "retail_rows_in_block": 714,
+      "retail_visible_slots": 714,
+      "runtime_asset": "A6",
+      "steam_rows_projected": 714,
+      "steam_visible_rows": 714
+    },
+    {
+      "blocks_equal": 8,
+      "blocks_replace": 7,
+      "retail_rows_in_block": 196,
+      "retail_visible_slots": 196,
+      "runtime_asset": "A7",
+      "steam_rows_projected": 196,
+      "steam_visible_rows": 196
+    },
+    {
+      "blocks_equal": 40,
+      "blocks_replace": 39,
+      "retail_rows_in_block": 622,
+      "retail_visible_slots": 622,
+      "runtime_asset": "a8",
+      "steam_rows_projected": 622,
+      "steam_visible_rows": 622
+    },
+    {
+      "blocks_equal": 14,
+      "blocks_replace": 13,
+      "retail_rows_in_block": 654,
+      "retail_visible_slots": 654,
+      "runtime_asset": "B1",
+      "steam_rows_projected": 654,
+      "steam_visible_rows": 654
+    },
+    {
+      "blocks_equal": 12,
+      "blocks_replace": 11,
+      "retail_rows_in_block": 402,
+      "retail_visible_slots": 402,
+      "runtime_asset": "B2",
+      "steam_rows_projected": 403,
+      "steam_visible_rows": 403
+    },
+    {
+      "blocks_equal": 34,
+      "blocks_replace": 33,
+      "retail_rows_in_block": 260,
+      "retail_visible_slots": 260,
+      "runtime_asset": "B3-1",
+      "steam_rows_projected": 260,
+      "steam_visible_rows": 260
+    },
+    {
+      "blocks_equal": 9,
+      "blocks_replace": 8,
+      "retail_rows_in_block": 340,
+      "retail_visible_slots": 340,
+      "runtime_asset": "B3-2",
+      "steam_rows_projected": 340,
+      "steam_visible_rows": 340
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 327,
+      "retail_visible_slots": 327,
+      "runtime_asset": "B4-1",
+      "steam_rows_projected": 327,
+      "steam_visible_rows": 327
+    },
+    {
+      "blocks_equal": 2,
+      "blocks_replace": 1,
+      "retail_rows_in_block": 178,
+      "retail_visible_slots": 178,
+      "runtime_asset": "B4-2",
+      "steam_rows_projected": 178,
+      "steam_visible_rows": 178
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 453,
+      "retail_visible_slots": 453,
+      "runtime_asset": "B5",
+      "steam_rows_projected": 453,
+      "steam_visible_rows": 453
+    },
+    {
+      "blocks_equal": 23,
+      "blocks_replace": 22,
+      "retail_rows_in_block": 773,
+      "retail_visible_slots": 773,
+      "runtime_asset": "B6",
+      "steam_rows_projected": 773,
+      "steam_visible_rows": 773
+    },
+    {
+      "blocks_equal": 2,
+      "blocks_replace": 1,
+      "retail_rows_in_block": 294,
+      "retail_visible_slots": 294,
+      "runtime_asset": "C1",
+      "steam_rows_projected": 294,
+      "steam_visible_rows": 294
+    },
+    {
+      "blocks_equal": 6,
+      "blocks_replace": 5,
+      "retail_rows_in_block": 560,
+      "retail_visible_slots": 560,
+      "runtime_asset": "C2",
+      "steam_rows_projected": 560,
+      "steam_visible_rows": 560
+    },
+    {
+      "blocks_equal": 27,
+      "blocks_replace": 26,
+      "retail_rows_in_block": 310,
+      "retail_visible_slots": 310,
+      "runtime_asset": "C3",
+      "steam_rows_projected": 312,
+      "steam_visible_rows": 312
+    },
+    {
+      "blocks_equal": 13,
+      "blocks_replace": 12,
+      "retail_rows_in_block": 284,
+      "retail_visible_slots": 284,
+      "runtime_asset": "C4",
+      "steam_rows_projected": 284,
+      "steam_visible_rows": 284
+    },
+    {
+      "blocks_equal": 25,
+      "blocks_replace": 24,
+      "retail_rows_in_block": 579,
+      "retail_visible_slots": 579,
+      "runtime_asset": "D1",
+      "steam_rows_projected": 579,
+      "steam_visible_rows": 579
+    },
+    {
+      "blocks_equal": 3,
+      "blocks_replace": 2,
+      "retail_rows_in_block": 389,
+      "retail_visible_slots": 389,
+      "runtime_asset": "D2",
+      "steam_rows_projected": 389,
+      "steam_visible_rows": 389
+    },
+    {
+      "blocks_equal": 8,
+      "blocks_replace": 7,
+      "retail_rows_in_block": 398,
+      "retail_visible_slots": 398,
+      "runtime_asset": "D3",
+      "steam_rows_projected": 398,
+      "steam_visible_rows": 398
+    },
+    {
+      "blocks_equal": 12,
+      "blocks_replace": 11,
+      "retail_rows_in_block": 508,
+      "retail_visible_slots": 508,
+      "runtime_asset": "D5",
+      "steam_rows_projected": 508,
+      "steam_visible_rows": 508
+    },
+    {
+      "blocks_equal": 1,
+      "retail_rows_in_block": 309,
+      "retail_visible_slots": 309,
+      "runtime_asset": "E1",
+      "steam_rows_projected": 309,
+      "steam_visible_rows": 309
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 500,
+      "retail_visible_slots": 500,
+      "runtime_asset": "E2",
+      "steam_rows_projected": 500,
+      "steam_visible_rows": 500
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 589,
+      "retail_visible_slots": 589,
+      "runtime_asset": "E3",
+      "steam_rows_projected": 589,
+      "steam_visible_rows": 589
+    },
+    {
+      "blocks_equal": 25,
+      "blocks_replace": 24,
+      "retail_rows_in_block": 644,
+      "retail_visible_slots": 644,
+      "runtime_asset": "E4",
+      "steam_rows_projected": 646,
+      "steam_visible_rows": 646
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 413,
+      "retail_visible_slots": 413,
+      "runtime_asset": "E5",
+      "steam_rows_projected": 413,
+      "steam_visible_rows": 413
+    },
+    {
+      "blocks_equal": 6,
+      "blocks_replace": 5,
+      "retail_rows_in_block": 508,
+      "retail_visible_slots": 508,
+      "runtime_asset": "E6",
+      "steam_rows_projected": 508,
+      "steam_visible_rows": 508
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 287,
+      "retail_visible_slots": 287,
+      "runtime_asset": "E7",
+      "steam_rows_projected": 287,
+      "steam_visible_rows": 287
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 476,
+      "retail_visible_slots": 476,
+      "runtime_asset": "F1",
+      "steam_rows_projected": 476,
+      "steam_visible_rows": 476
+    },
+    {
+      "blocks_equal": 3,
+      "blocks_replace": 2,
+      "retail_rows_in_block": 618,
+      "retail_visible_slots": 618,
+      "runtime_asset": "F2",
+      "steam_rows_projected": 618,
+      "steam_visible_rows": 618
+    },
+    {
+      "blocks_equal": 8,
+      "blocks_replace": 7,
+      "retail_rows_in_block": 512,
+      "retail_visible_slots": 512,
+      "runtime_asset": "F3",
+      "steam_rows_projected": 512,
+      "steam_visible_rows": 512
+    },
+    {
+      "blocks_equal": 20,
+      "blocks_replace": 19,
+      "retail_rows_in_block": 374,
+      "retail_visible_slots": 374,
+      "runtime_asset": "F4",
+      "steam_rows_projected": 374,
+      "steam_visible_rows": 374
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 461,
+      "retail_visible_slots": 461,
+      "runtime_asset": "F5",
+      "steam_rows_projected": 461,
+      "steam_visible_rows": 461
+    },
+    {
+      "blocks_equal": 6,
+      "blocks_replace": 5,
+      "retail_rows_in_block": 313,
+      "retail_visible_slots": 313,
+      "runtime_asset": "G1",
+      "steam_rows_projected": 313,
+      "steam_visible_rows": 313
+    },
+    {
+      "blocks_equal": 4,
+      "blocks_replace": 3,
+      "retail_rows_in_block": 451,
+      "retail_visible_slots": 451,
+      "runtime_asset": "G2",
+      "steam_rows_projected": 456,
+      "steam_visible_rows": 456
+    },
+    {
+      "blocks_equal": 4,
+      "blocks_replace": 3,
+      "retail_rows_in_block": 440,
+      "retail_visible_slots": 440,
+      "runtime_asset": "G3",
+      "steam_rows_projected": 440,
+      "steam_visible_rows": 440
+    },
+    {
+      "blocks_delete": 1,
+      "blocks_equal": 25,
+      "blocks_replace": 23,
+      "retail_rows_in_block": 315,
+      "retail_visible_slots": 315,
+      "runtime_asset": "x1",
+      "steam_rows_projected": 348,
+      "steam_visible_rows": 348
+    },
+    {
+      "blocks_equal": 4,
+      "blocks_replace": 3,
+      "retail_rows_in_block": 430,
+      "retail_visible_slots": 430,
+      "runtime_asset": "X10",
+      "steam_rows_projected": 430,
+      "steam_visible_rows": 430
+    },
+    {
+      "blocks_equal": 4,
+      "blocks_replace": 3,
+      "retail_rows_in_block": 595,
+      "retail_visible_slots": 595,
+      "runtime_asset": "X11",
+      "steam_rows_projected": 595,
+      "steam_visible_rows": 595
+    },
+    {
+      "blocks_equal": 31,
+      "blocks_replace": 30,
+      "retail_rows_in_block": 328,
+      "retail_visible_slots": 328,
+      "runtime_asset": "x12",
+      "steam_rows_projected": 328,
+      "steam_visible_rows": 328
+    },
+    {
+      "blocks_equal": 19,
+      "blocks_replace": 18,
+      "retail_rows_in_block": 713,
+      "retail_visible_slots": 713,
+      "runtime_asset": "X13",
+      "steam_rows_projected": 713,
+      "steam_visible_rows": 713
+    },
+    {
+      "blocks_equal": 8,
+      "blocks_replace": 7,
+      "retail_rows_in_block": 575,
+      "retail_visible_slots": 575,
+      "runtime_asset": "X14",
+      "steam_rows_projected": 574,
+      "steam_visible_rows": 574
+    },
+    {
+      "blocks_equal": 15,
+      "blocks_replace": 14,
+      "retail_rows_in_block": 405,
+      "retail_visible_slots": 405,
+      "runtime_asset": "X15-1",
+      "steam_rows_projected": 405,
+      "steam_visible_rows": 405
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 491,
+      "retail_visible_slots": 491,
+      "runtime_asset": "X15-2",
+      "steam_rows_projected": 491,
+      "steam_visible_rows": 491
+    },
+    {
+      "blocks_equal": 14,
+      "blocks_replace": 13,
+      "retail_rows_in_block": 1010,
+      "retail_visible_slots": 1010,
+      "runtime_asset": "X16",
+      "steam_rows_projected": 1010,
+      "steam_visible_rows": 1010
+    },
+    {
+      "blocks_equal": 17,
+      "blocks_insert": 2,
+      "blocks_replace": 14,
+      "retail_rows_in_block": 629,
+      "retail_visible_slots": 629,
+      "runtime_asset": "X17",
+      "steam_rows_projected": 642,
+      "steam_visible_rows": 642
+    },
+    {
+      "blocks_equal": 14,
+      "blocks_replace": 13,
+      "retail_rows_in_block": 355,
+      "retail_visible_slots": 355,
+      "runtime_asset": "X18",
+      "steam_rows_projected": 355,
+      "steam_visible_rows": 355
+    },
+    {
+      "blocks_equal": 12,
+      "blocks_replace": 11,
+      "retail_rows_in_block": 277,
+      "retail_visible_slots": 277,
+      "runtime_asset": "X19",
+      "steam_rows_projected": 279,
+      "steam_visible_rows": 279
+    },
+    {
+      "blocks_equal": 2,
+      "blocks_replace": 1,
+      "retail_rows_in_block": 318,
+      "retail_visible_slots": 318,
+      "runtime_asset": "X2-1",
+      "steam_rows_projected": 318,
+      "steam_visible_rows": 318
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 390,
+      "retail_visible_slots": 390,
+      "runtime_asset": "X2-2",
+      "steam_rows_projected": 390,
+      "steam_visible_rows": 390
+    },
+    {
+      "blocks_equal": 10,
+      "blocks_replace": 9,
+      "retail_rows_in_block": 425,
+      "retail_visible_slots": 425,
+      "runtime_asset": "X3-1",
+      "steam_rows_projected": 425,
+      "steam_visible_rows": 425
+    },
+    {
+      "blocks_equal": 15,
+      "blocks_replace": 14,
+      "retail_rows_in_block": 845,
+      "retail_visible_slots": 845,
+      "runtime_asset": "X3-2",
+      "steam_rows_projected": 845,
+      "steam_visible_rows": 845
+    },
+    {
+      "blocks_equal": 14,
+      "blocks_replace": 13,
+      "retail_rows_in_block": 430,
+      "retail_visible_slots": 430,
+      "runtime_asset": "X3-3",
+      "steam_rows_projected": 430,
+      "steam_visible_rows": 430
+    },
+    {
+      "blocks_equal": 4,
+      "blocks_replace": 3,
+      "retail_rows_in_block": 279,
+      "retail_visible_slots": 279,
+      "runtime_asset": "X4",
+      "steam_rows_projected": 279,
+      "steam_visible_rows": 279
+    },
+    {
+      "blocks_equal": 14,
+      "blocks_replace": 13,
+      "retail_rows_in_block": 457,
+      "retail_visible_slots": 457,
+      "runtime_asset": "X6-1",
+      "steam_rows_projected": 457,
+      "steam_visible_rows": 457
+    },
+    {
+      "blocks_equal": 5,
+      "blocks_replace": 4,
+      "retail_rows_in_block": 328,
+      "retail_visible_slots": 328,
+      "runtime_asset": "X6-2",
+      "steam_rows_projected": 328,
+      "steam_visible_rows": 328
+    },
+    {
+      "blocks_equal": 25,
+      "blocks_replace": 24,
+      "retail_rows_in_block": 632,
+      "retail_visible_slots": 632,
+      "runtime_asset": "X7",
+      "steam_rows_projected": 632,
+      "steam_visible_rows": 632
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 420,
+      "retail_visible_slots": 420,
+      "runtime_asset": "X8",
+      "steam_rows_projected": 420,
+      "steam_visible_rows": 420
+    },
+    {
+      "blocks_equal": 7,
+      "blocks_replace": 6,
+      "retail_rows_in_block": 289,
+      "retail_visible_slots": 289,
+      "runtime_asset": "X9",
+      "steam_rows_projected": 289,
+      "steam_visible_rows": 289
+    }
+  ],
+  "status": "complete_exact_steam_reference_closure"
+}

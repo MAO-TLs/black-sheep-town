@@ -1,93 +1,150 @@
 {
   "archive": {
-    "bytes": 83816588,
-    "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.0.0/BLACK_SHEEP_TOWN_English_v1.0.0.zip",
-    "name": "BLACK_SHEEP_TOWN_English_v1.0.0.zip",
-    "sha256": "9c3af0ec94f0bc5fb8ef7a29d6e9ad34b67cbd462c24d55ebecf6970b15bc0ac"
+    "bytes": 90838955,
+    "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.1.0/BLACK_SHEEP_TOWN_English_v1.1.0.zip",
+    "name": "BLACK_SHEEP_TOWN_English_v1.1.0.zip",
+    "sha256": "4fda54ae008755f71fdedc9da4ab80186e4eae40a2fdeec8f2420ab43ddb6104"
+  },
+  "builds": {
+    "original-japanese-retail": {
+      "authority_receipt_format": "mao-bst-steam-manuscript-to-retail-projection-v1",
+      "authority_receipt_sha256": "5064e9ee353939b74679000ffb2e14930af58182951a21d5fa9bc661e95ed715",
+      "copied_bytes": 1937425877,
+      "delta_format": "mao-bst-unityfs-delta-v1",
+      "literal_bytes": 90477932,
+      "native_serialized_target_sha256": "26663583e66a0a6400078b4ae3d5f1fe9aa997f302d40fcae886b005d104ec2b",
+      "payload_bytes": 83856922,
+      "runtime_verified": false,
+      "source_bytes": 2027435267,
+      "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
+      "surgical_container_used": true,
+      "target": "Bst_Data/data.unity3d",
+      "target_bytes": 2027903809,
+      "target_sha256": "9848cc7b1a7e649dd2985df1100b3aa60ab5f03a6479abea3d338989842c470b",
+      "tips_entries_localized": 208,
+      "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
+      "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+    },
+    "steam-build-13300478": {
+      "authority_receipt_format": "mao-bst-compiled-authority-v1",
+      "authority_receipt_sha256": "d5f1eba1e4094e22a48a1b76bca4595cc0056d0510dd8bbe890c8810129bcdb1",
+      "copied_bytes": 118620560,
+      "delta_format": "mao-bst-file-cdc-delta-v1",
+      "literal_bytes": 11455408,
+      "native_serialized_target_sha256": "f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf",
+      "payload_bytes": 2192173,
+      "runtime_verified": false,
+      "source_bytes": 126313228,
+      "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
+      "surgical_container_used": false,
+      "target": "Bst_Data/sharedassets0.assets",
+      "target_bytes": 130075968,
+      "target_sha256": "f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf",
+      "tips_entries_localized": 211,
+      "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
+      "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+    }
   },
   "checks": {
     "archive_hash_bound_twice": true,
     "archive_size_bound": true,
     "download_url_bound": true,
+    "dual_file_install_architecture": true,
     "hero_title_exact_stack": true,
     "installer_validation_passed": true,
     "obsolete_dll_architecture_absent": true,
     "obsolete_scenario_bundle_absent": true,
     "script_opens_directly": true,
-    "single_file_install_architecture": true,
     "spoiler_gate_absent": true,
-    "supported_source_hash_bound": true,
+    "supported_source_hashes_bound": true,
     "wine_named_crossover_absent": true
   },
   "files": {
     "README.txt": {
-      "bytes": 734,
-      "sha256": "d7ad1777ed3f9159c8af7f226570b747a6c98230b93fe4daf36bee5446d8a69e"
+      "bytes": 258,
+      "sha256": "ec59bd8fbf9c04cde7a5943080ad99866990b253d4091a319d58ab02338ec06b"
     },
     "app.js": {
-      "bytes": 13493,
-      "sha256": "18b8fb473ede751c6dbe4eeb5017ba0585e01f9902321b04e07f5eb211c60ed8"
+      "bytes": 13320,
+      "sha256": "82e7c06684cf6b7824edf82f2f471b7aac2d3c97815f7f9a06fe38baf29b08f4"
     },
     "browser_manifest.json": {
-      "bytes": 4570,
-      "sha256": "dd630852d82fa8965fd4f70cc01d8499b11391a59874f3f42b6ff72a18cf28d1"
+      "bytes": 3499,
+      "sha256": "39d7cd1603dd2f6337ef3b3a5b4b381ae43ff8695f07d06001a7c3381476702c"
     },
     "bst-city-ink-hero-v1.png": {
       "bytes": 1122010,
       "sha256": "9dd59db3b68e3bbf48d57ba5e47b49b2a454d1ca50dfff0c3fa023ae7ab94951"
     },
     "data.js": {
-      "bytes": 17719258,
-      "sha256": "5cde02fcefbe0d9370ab3f4b201a9e053b1f060db0f6f829bebd662602567391"
+      "bytes": 14131588,
+      "sha256": "d9d7234195fc93750ccea92607372f64119d8f52609da93cde90453c1c6d8fc0"
     },
     "favicon.svg": {
       "bytes": 507,
       "sha256": "ee489509d4f3f671dc885e63ef4f8bcea741b1ee183f55d55c7102952ba53da8"
     },
     "index.html": {
-      "bytes": 5933,
-      "sha256": "d2d571912b360546b9b41962f5ca79b16253861c0f559ddfe0fea0cdf8fb814a"
+      "bytes": 6177,
+      "sha256": "07b6c33a934486253caf585df59cf46f8240260ea5fd8d27d0b365e7428821bb"
     },
     "mao-publication-template.css": {
       "bytes": 3375,
       "sha256": "ba5e364b91a96297549ae7c552769af9cff01ae044b15c658e770fd2a55e6d7a"
     },
     "mao-reader-template.css": {
-      "bytes": 28288,
-      "sha256": "0a5a4f1b2845f1ae2ec1de17d5b887bd2da77d40605337fc419d8d33331da30a"
+      "bytes": 28308,
+      "sha256": "ef127ab04b465de7c349f3caa5301c66e0fa5114259b7c23137cfdef2532dffe"
     },
     "script.html": {
-      "bytes": 3624,
-      "sha256": "c430a494a065b7ec2aca69c2400d90200c4938044834eb9082d1c6fbe67b9cd5"
+      "bytes": 3520,
+      "sha256": "77e1825376650ef627a683772063c4bb3e0928db31c0f7f48747decde526f49b"
     },
     "styles.css": {
       "bytes": 11752,
       "sha256": "90e8c4d1cf8085ddca92ea75ced9ba30877ce9fd2600e45edb045704482cd26d"
     }
   },
-  "format": "mao-bst-release-site-manifest-v1",
+  "format": "mao-bst-dual-release-site-manifest-v2",
   "installer_validation": {
+    "archive_sha256": "4fda54ae008755f71fdedc9da4ab80186e4eae40a2fdeec8f2420ab43ddb6104",
+    "builds": {
+      "original-japanese-retail": {
+        "corrupt_payload_rejected": true,
+        "english_restore_backup_hash_exact": true,
+        "failed_install_transaction_restored_source": true,
+        "fast_reinstall_hash_exact": true,
+        "fresh_source_verified": true,
+        "install_rebuild_hash_exact": true,
+        "japanese_backup_hash_exact": true,
+        "repeat_install_idempotent": true,
+        "restore_hash_exact": true
+      },
+      "steam-build-13300478": {
+        "corrupt_payload_rejected": true,
+        "english_restore_backup_hash_exact": true,
+        "failed_install_transaction_restored_source": true,
+        "fast_reinstall_hash_exact": true,
+        "fresh_source_verified": true,
+        "install_rebuild_hash_exact": true,
+        "japanese_backup_hash_exact": true,
+        "repeat_install_idempotent": true,
+        "restore_hash_exact": true
+      }
+    },
     "checks": {
-      "corrupt_payload_rejected": true,
-      "english_restore_backup_hash_exact": true,
-      "failed_install_transaction_restored_source": true,
-      "fast_reinstall_hash_exact": true,
-      "fresh_source_verified": true,
+      "both_supported_builds_exercised": true,
       "game_launches": 0,
-      "install_rebuild_hash_exact": true,
-      "installed_verification_passed": true,
-      "japanese_backup_hash_exact": true,
-      "package_member_hashes_exact": true,
-      "public_instructions_match_verified_architecture": true,
-      "repeat_install_idempotent": true,
-      "restore_hash_exact": true,
-      "restored_verification_passed": true,
+      "one_audited_steam_source_manuscript_drives_browser_and_both_patches": true,
+      "one_source_prosecuted_tips_manuscript_shared": true,
+      "package_file_hashes_exact": true,
+      "public_instructions_match_dual_version_wine_architecture": true,
       "zip_topology_safe": true
     },
-    "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
-    "status": "passed",
-    "target_sha256": "62e0b06a071986acc8e7914d98d740ae3e12c87bc26d32895819b3c5fdcb9c3a"
+    "status": "passed"
   },
-  "release": "v1.0.0",
-  "status": "installer_verified_release_site"
+  "release": "v1.1.0",
+  "status": "installer_verified_dual_release_site"
 }

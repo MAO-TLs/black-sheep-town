@@ -1,0 +1,208 @@
+{
+  "browser": {
+    "compact_line_spacing_enforced": true,
+    "editorial_audit_sha256": "c22579344b844074f0fe5c66d4309553cfa9a4dbe48c8c8024caa54c774d4d27",
+    "manuscript_sha256": "e48a141e22b67626455584a8202e392486027f01ad32a3968abf379baed91d65",
+    "rows": 29753,
+    "scenarios": 63,
+    "spoiler_gate_present": false,
+    "steam_authoritative": true
+  },
+  "builds": {
+    "original-japanese-retail": {
+      "authority_receipt_format": "mao-bst-steam-manuscript-to-retail-projection-v1",
+      "authority_receipt_sha256": "5064e9ee353939b74679000ffb2e14930af58182951a21d5fa9bc661e95ed715",
+      "copied_bytes": 1937425877,
+      "delta_format": "mao-bst-unityfs-delta-v1",
+      "literal_bytes": 90477932,
+      "native_serialized_target_sha256": "26663583e66a0a6400078b4ae3d5f1fe9aa997f302d40fcae886b005d104ec2b",
+      "payload_bytes": 83856922,
+      "runtime_verified": false,
+      "source_bytes": 2027435267,
+      "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
+      "surgical_container_used": true,
+      "target": "Bst_Data/data.unity3d",
+      "target_bytes": 2027903809,
+      "target_sha256": "9848cc7b1a7e649dd2985df1100b3aa60ab5f03a6479abea3d338989842c470b",
+      "tips_entries_localized": 208,
+      "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
+      "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+    },
+    "steam-build-13300478": {
+      "authority_receipt_format": "mao-bst-compiled-authority-v1",
+      "authority_receipt_sha256": "d5f1eba1e4094e22a48a1b76bca4595cc0056d0510dd8bbe890c8810129bcdb1",
+      "copied_bytes": 118620560,
+      "delta_format": "mao-bst-file-cdc-delta-v1",
+      "literal_bytes": 11455408,
+      "native_serialized_target_sha256": "f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf",
+      "payload_bytes": 2192173,
+      "runtime_verified": false,
+      "source_bytes": 126313228,
+      "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
+      "surgical_container_used": false,
+      "target": "Bst_Data/sharedassets0.assets",
+      "target_bytes": 130075968,
+      "target_sha256": "f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf",
+      "tips_entries_localized": 211,
+      "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
+      "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+    }
+  },
+  "files": {
+    "Install BLACK SHEEP TOWN English Patch.bat": {
+      "bytes": 339,
+      "sha256": "5043c820a7d80bb6ae09db90286c4dd7d54277f747fe58945153381f48305754"
+    },
+    "Install BLACK SHEEP TOWN English Patch.command": {
+      "bytes": 339,
+      "sha256": "3cbf6770c3cbbe044571c5a6e6897e69a2e1a1db1a1b6fbce90bacdf91cb0490"
+    },
+    "README.txt": {
+      "bytes": 1976,
+      "sha256": "c5c8b53134617ad1fd515d941b9486c896dca315b50bfe8cee7a78f3cbf23441"
+    },
+    "Restore BLACK SHEEP TOWN Japanese.bat": {
+      "bytes": 369,
+      "sha256": "9eebc9035775c6793ad7c7a671e6a952d395494751b1e0a715f52c4b84036fb6"
+    },
+    "Restore BLACK SHEEP TOWN Japanese.command": {
+      "bytes": 359,
+      "sha256": "2f2c672d74d9a5b7c157d7999558cfc2917fd149786fbad21d367767f21df5f0"
+    },
+    "Script Browser/README.txt": {
+      "bytes": 258,
+      "sha256": "ec59bd8fbf9c04cde7a5943080ad99866990b253d4091a319d58ab02338ec06b"
+    },
+    "Script Browser/app.js": {
+      "bytes": 13320,
+      "sha256": "82e7c06684cf6b7824edf82f2f471b7aac2d3c97815f7f9a06fe38baf29b08f4"
+    },
+    "Script Browser/browser_manifest.json": {
+      "bytes": 3435,
+      "sha256": "8a355c2ea2dc736ef17c9e9dfcd5eb9ae2999b2ebe53e4134e007a0921fe8511"
+    },
+    "Script Browser/bst-city-ink-hero-v1.png": {
+      "bytes": 1122010,
+      "sha256": "9dd59db3b68e3bbf48d57ba5e47b49b2a454d1ca50dfff0c3fa023ae7ab94951"
+    },
+    "Script Browser/data.js": {
+      "bytes": 14131588,
+      "sha256": "d9d7234195fc93750ccea92607372f64119d8f52609da93cde90453c1c6d8fc0"
+    },
+    "Script Browser/favicon.svg": {
+      "bytes": 507,
+      "sha256": "ee489509d4f3f671dc885e63ef4f8bcea741b1ee183f55d55c7102952ba53da8"
+    },
+    "Script Browser/index.html": {
+      "bytes": 6144,
+      "sha256": "f0210d4b2dbde9cca37f7eeff166e0112089e19a5ccd09a2dc96b092f42568b1"
+    },
+    "Script Browser/mao-publication-template.css": {
+      "bytes": 3375,
+      "sha256": "ba5e364b91a96297549ae7c552769af9cff01ae044b15c658e770fd2a55e6d7a"
+    },
+    "Script Browser/mao-reader-template.css": {
+      "bytes": 28308,
+      "sha256": "ef127ab04b465de7c349f3caa5301c66e0fa5114259b7c23137cfdef2532dffe"
+    },
+    "Script Browser/script.html": {
+      "bytes": 3520,
+      "sha256": "77e1825376650ef627a683772063c4bb3e0928db31c0f7f48747decde526f49b"
+    },
+    "Script Browser/styles.css": {
+      "bytes": 11752,
+      "sha256": "90e8c4d1cf8085ddca92ea75ced9ba30877ce9fd2600e45edb045704482cd26d"
+    },
+    "Verification/browser-manifest.json": {
+      "bytes": 3176,
+      "sha256": "8c57f7b43ed00e423e14afbc01e3fde778803d75afdffd7fa126b0aa59b35a4f"
+    },
+    "Verification/original-japanese-retail/authority-receipt.json": {
+      "bytes": 16970,
+      "sha256": "5064e9ee353939b74679000ffb2e14930af58182951a21d5fa9bc661e95ed715"
+    },
+    "Verification/original-japanese-retail/delta-manifest.json": {
+      "bytes": 1121,
+      "sha256": "d02562e8f6deaadc829514623ef1fe834200fc7f9b588a2d5589a9242dc8d784"
+    },
+    "Verification/original-japanese-retail/patch-manifest.json": {
+      "bytes": 33474,
+      "sha256": "f9fa4d756d357aa751cd1fc9209bac9a1a74866752233c27248af442239be9ce"
+    },
+    "Verification/original-japanese-retail/surgical-manifest.json": {
+      "bytes": 1612,
+      "sha256": "9ba8fb5f81732c123543ebfbb5b1ffcc61a5c1d659563ef3b760ca25f0960b5d"
+    },
+    "Verification/original-japanese-retail/tips-receipt.json": {
+      "bytes": 2359,
+      "sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+    },
+    "Verification/steam-build-13300478/authority-receipt.json": {
+      "bytes": 14734,
+      "sha256": "d5f1eba1e4094e22a48a1b76bca4595cc0056d0510dd8bbe890c8810129bcdb1"
+    },
+    "Verification/steam-build-13300478/delta-manifest.json": {
+      "bytes": 84653,
+      "sha256": "d202e40d520a2a9f0da9dcca1e8f4f6cba1196876665a45f3e8e93eb8590fab0"
+    },
+    "Verification/steam-build-13300478/manuscript-audit.json": {
+      "bytes": 1571,
+      "sha256": "c22579344b844074f0fe5c66d4309553cfa9a4dbe48c8c8024caa54c774d4d27"
+    },
+    "Verification/steam-build-13300478/patch-manifest.json": {
+      "bytes": 27585,
+      "sha256": "f7e5b50b34603fb05ccc32122a63d188c9dcf98a54844c49985dea26585e745b"
+    },
+    "Verification/steam-build-13300478/tips-receipt.json": {
+      "bytes": 2359,
+      "sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+    },
+    "Verify BLACK SHEEP TOWN Patch.bat": {
+      "bytes": 349,
+      "sha256": "d30b4620a623795f89de42b0359a83bf52f668e16c42c95e947a4027bec6d19f"
+    },
+    "Verify BLACK SHEEP TOWN Patch.command": {
+      "bytes": 340,
+      "sha256": "c642232302b6572d605d88b6857c7e58a94c31ee78fa6a55105299622b44e9a7"
+    },
+    "delta_codec.py": {
+      "bytes": 19070,
+      "sha256": "1945ed89300af78fc864a929662cef7e73949d9c4272cea770250297883a9fcc"
+    },
+    "install_bst_patch.py": {
+      "bytes": 10286,
+      "sha256": "aff4d2ebdd6ddad36405bf79be5287dabde2d186081ca36a490f4bdac5c70569"
+    },
+    "payload/retail-data-unity3d/ROUNDTRIP_VERIFICATION.json": {
+      "bytes": 2264,
+      "sha256": "ed2d86b8da96e304a600872d8263a56542012e78073c8a46844fa4dbbd1bd47e"
+    },
+    "payload/retail-data-unity3d/literals.zlib.001": {
+      "bytes": 47185920,
+      "sha256": "d7b2bd09fcda9fd11c78275f3747569bee05df3b62dd3b2561ec11e3683c853f"
+    },
+    "payload/retail-data-unity3d/literals.zlib.002": {
+      "bytes": 36671002,
+      "sha256": "f5f585d1a16a41e1ac38699f0340cf3ea7b707bed7416f3ef2011d29ce1e6f80"
+    },
+    "payload/retail-data-unity3d/manifest.json": {
+      "bytes": 1121,
+      "sha256": "d02562e8f6deaadc829514623ef1fe834200fc7f9b588a2d5589a9242dc8d784"
+    },
+    "payload/steam-sharedassets0/literals.zlib.001": {
+      "bytes": 2192173,
+      "sha256": "5364aebab2d954172ea382e4010438e457457ad236f31a6a5715b253ab0367f9"
+    },
+    "payload/steam-sharedassets0/manifest.json": {
+      "bytes": 84653,
+      "sha256": "d202e40d520a2a9f0da9dcca1e8f4f6cba1196876665a45f3e8e93eb8590fab0"
+    }
+  },
+  "format": "mao-bst-dual-release-package-v3",
+  "game_launched_by_installer": false,
+  "release": "v1.1.0",
+  "source_authority": "steam-build-13300478",
+  "status": "static_candidate"
+}

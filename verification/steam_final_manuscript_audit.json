@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "control_tags_exact": true,
+    "english_complete": true,
+    "japanese_hashes_exact": true,
+    "settled_terminology_sentinels_clear": true,
+    "source_fields_exact": true,
+    "translation_provenance_closed": true
+  },
+  "counts": {
+    "failures": 0,
+    "provenance": {
+      "editor_review": 12456,
+      "locked_steam_delta": 241,
+      "locked_steam_delta_control_repair": 2,
+      "supplemental_source_review": 519,
+      "verified_safe_reuse": 16536
+    },
+    "rows": 29754,
+    "scenarios": 63
+  },
+  "failures": [],
+  "format": "mao-bst-final-steam-manuscript-audit-v1",
+  "inputs": {
+    "japanese_source": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/source/steam-live/live_translation_rows.tsv",
+      "sha256": "3ed522968d9302287f2712b07644a847d584f9725b4a8b39b435b977691adb37"
+    },
+    "manuscript": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/semantic-final-v1/steam_final_translation_rows.tsv",
+      "sha256": "c8fec31c0b00a6309f90a17fb67088b3e4ceefb3083e36999c30b49d8d6bd37c"
+    },
+    "receipt": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/semantic-final-v1/receipt.json",
+      "sha256": "6524ba91d55d8aa3c313a8236711404fe6ee899d7aecfeaba71969717e9b9b90"
+    }
+  },
+  "status": "passed"
+}
