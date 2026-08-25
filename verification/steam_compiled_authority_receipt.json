@@ -576,13 +576,13 @@
   "inputs": {
     "editorial_audit_report": {
       "format": "mao-bst-final-steam-manuscript-audit-v1",
-      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/semantic-final-v1/deterministic_audit.json",
-      "sha256": "c22579344b844074f0fe5c66d4309553cfa9a4dbe48c8c8024caa54c774d4d27",
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/tips-span-normalized-v1_1_1/deterministic_audit.json",
+      "sha256": "58f9526be119ed4a0e8cce49561763095e7af779547e9ac9d7674861fcd2395b",
       "status": "passed"
     },
     "editorial_rows": {
-      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/semantic-final-v1/steam_final_translation_rows.tsv",
-      "sha256": "c8fec31c0b00a6309f90a17fb67088b3e4ceefb3083e36999c30b49d8d6bd37c"
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/tips-span-normalized-v1_1_1/steam_final_translation_rows.tsv",
+      "sha256": "7bdb991a881425bc123ae28e5164435f7df78ec54e4e6646ff66fccb8516228a"
     },
     "schema_bundle": {
       "path": "/Users/fletcher/Downloads/BLACK.SHEEP.TOWN.Build.13300478/Bst_Data/StreamingAssets/Windows/bst.scenarios.asset",
@@ -594,10 +594,10 @@
     }
   },
   "output": {
-    "topology_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-steam-semantic-final-v1/steam_compiled_authority_rows.tsv",
-    "topology_sha256": "a4b59c774d77501f8e0700f59611a265f5d288c786960b27ef9549a7a8272212",
-    "visible_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-steam-semantic-final-v1/steam_compiled_visible_rows.tsv",
-    "visible_sha256": "e48a141e22b67626455584a8202e392486027f01ad32a3968abf379baed91d65"
+    "topology_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-tips-span-normalized-v1_1_1/steam_compiled_authority_rows.tsv",
+    "topology_sha256": "783fe3f94bb6d236b2f42d489b94ae168ebc514232aaaccc24240786473aff49",
+    "visible_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-tips-span-normalized-v1_1_1/steam_compiled_visible_rows.tsv",
+    "visible_sha256": "89b92548d7019d7550dfd9040fb052410cab4b283e0852fd72fa2c82638aa0c7"
   },
   "status": "complete_translated_visible_rows"
 }

@@ -1,14 +1,14 @@
 {
   "archive": {
-    "bytes": 90838955,
+    "bytes": 90987592,
     "member_hashes_verified": true,
-    "members": 38,
-    "name": "BLACK_SHEEP_TOWN_English_v1.1.0.zip",
-    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/bst-complete-patcher-mao/dual-release-semantic-final-v1_1_0/BLACK_SHEEP_TOWN_English_v1.1.0.zip",
-    "sha256": "4fda54ae008755f71fdedc9da4ab80186e4eae40a2fdeec8f2420ab43ddb6104"
+    "members": 45,
+    "name": "BLACK_SHEEP_TOWN_English_v1.1.1.zip",
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/bst-complete-patcher-mao/dual-release-tips-span-v1_1_1/BLACK_SHEEP_TOWN_English_v1.1.1.zip",
+    "sha256": "2a3dbaca07355d5fe270967373d9719b9ce72639ac9a0f386f7c081baeaf171a"
   },
   "format": "mao-bst-dual-release-receipt-v3",
-  "package_manifest_sha256": "228ff023eb29b7ca9427abb58fb58c2933fb1392d2187c75ee9f46ddc82c08b0",
-  "release": "v1.1.0",
+  "package_manifest_sha256": "a3ad1907d88906150ff7031c7ef2389501a07b4ef552a8263577792af8405407",
+  "release": "v1.1.1",
   "status": "static_candidate"
 }

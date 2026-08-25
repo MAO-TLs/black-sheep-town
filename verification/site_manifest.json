@@ -1,50 +1,72 @@
 {
   "archive": {
-    "bytes": 90838955,
-    "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.1.0/BLACK_SHEEP_TOWN_English_v1.1.0.zip",
-    "name": "BLACK_SHEEP_TOWN_English_v1.1.0.zip",
-    "sha256": "4fda54ae008755f71fdedc9da4ab80186e4eae40a2fdeec8f2420ab43ddb6104"
+    "bytes": 90987592,
+    "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.1.1/BLACK_SHEEP_TOWN_English_v1.1.1.zip",
+    "name": "BLACK_SHEEP_TOWN_English_v1.1.1.zip",
+    "sha256": "2a3dbaca07355d5fe270967373d9719b9ce72639ac9a0f386f7c081baeaf171a"
   },
   "builds": {
     "original-japanese-retail": {
       "authority_receipt_format": "mao-bst-steam-manuscript-to-retail-projection-v1",
-      "authority_receipt_sha256": "5064e9ee353939b74679000ffb2e14930af58182951a21d5fa9bc661e95ed715",
+      "authority_receipt_sha256": "2dfb59710a3df430272cd4594bca8be22849e814d582db2aedcc17c8b04d19e9",
       "copied_bytes": 1937425877,
       "delta_format": "mao-bst-unityfs-delta-v1",
-      "literal_bytes": 90477932,
-      "native_serialized_target_sha256": "26663583e66a0a6400078b4ae3d5f1fe9aa997f302d40fcae886b005d104ec2b",
-      "payload_bytes": 83856922,
+      "literal_bytes": 90447593,
+      "native_serialized_target_sha256": "43bf1be97e36c849649c1e1ae1e3c20d8dc236237e54a209751b4ccee416af2e",
+      "payload_bytes": 83825887,
       "runtime_verified": false,
       "source_bytes": 2027435267,
       "source_sha256": "0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc",
       "surgical_container_used": true,
+      "system_ui_metadata": {
+        "payload_bytes": 44170,
+        "source_bytes": 5505008,
+        "source_sha256": "85edeaab11f317ade4cd8da4170e44dca746df79cdabb0a915297e36b4b0aed1",
+        "target": "Bst_Data/il2cpp_data/Metadata/global-metadata.dat",
+        "target_bytes": 5505008,
+        "target_sha256": "01f9270cbb11c13df78b5a4684bf5fa6338f8d9859d28741202ff770185af7e9",
+        "translated_literals": 14
+      },
+      "system_ui_omitted": false,
       "target": "Bst_Data/data.unity3d",
-      "target_bytes": 2027903809,
-      "target_sha256": "9848cc7b1a7e649dd2985df1100b3aa60ab5f03a6479abea3d338989842c470b",
+      "target_bytes": 2027873470,
+      "target_sha256": "78f96a5bc70b20d3b58e1b19d69a8e73cd188d95b13d54364e7d2b6cff21aa44",
       "tips_entries_localized": 208,
       "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
       "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
-      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41",
+      "ui_artwork_omitted": true
     },
     "steam-build-13300478": {
       "authority_receipt_format": "mao-bst-compiled-authority-v1",
-      "authority_receipt_sha256": "d5f1eba1e4094e22a48a1b76bca4595cc0056d0510dd8bbe890c8810129bcdb1",
-      "copied_bytes": 118620560,
+      "authority_receipt_sha256": "c25fa07469efdad6da82a0f4c3dbe0a7d3f9fb2f5348d80bbb509d38f86a68e1",
+      "copied_bytes": 118508734,
       "delta_format": "mao-bst-file-cdc-delta-v1",
-      "literal_bytes": 11455408,
-      "native_serialized_target_sha256": "f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf",
-      "payload_bytes": 2192173,
+      "literal_bytes": 11611858,
+      "native_serialized_target_sha256": "be6be6da6f14ddf59e94398478ccc4119b94600ea5fe4a4f3868eb12e0e88979",
+      "payload_bytes": 2195595,
       "runtime_verified": false,
       "source_bytes": 126313228,
       "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
       "surgical_container_used": false,
+      "system_ui_metadata": {
+        "payload_bytes": 55332,
+        "source_bytes": 5528636,
+        "source_sha256": "148d5fd72d5437b9a58e6ebc1053c07e14c1b04e6ad98bf5a859e1183e059c04",
+        "target": "Bst_Data/il2cpp_data/Metadata/global-metadata.dat",
+        "target_bytes": 5528636,
+        "target_sha256": "1354262b5f3e10f942a1282a3e92a0f3aa651befe5b6161cc274d05dd20f667b",
+        "translated_literals": 15
+      },
+      "system_ui_omitted": false,
       "target": "Bst_Data/sharedassets0.assets",
-      "target_bytes": 130075968,
-      "target_sha256": "f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf",
+      "target_bytes": 130120592,
+      "target_sha256": "be6be6da6f14ddf59e94398478ccc4119b94600ea5fe4a4f3868eb12e0e88979",
       "tips_entries_localized": 211,
       "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
       "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
-      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41"
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41",
+      "ui_artwork_omitted": true
     }
   },
   "checks": {
@@ -63,24 +85,24 @@
   },
   "files": {
     "README.txt": {
-      "bytes": 258,
-      "sha256": "ec59bd8fbf9c04cde7a5943080ad99866990b253d4091a319d58ab02338ec06b"
+      "bytes": 455,
+      "sha256": "cfe7ec1f3a850e41df891d53b8ef1e76d7ea9e120c34d04dd16a0d1161f7cec4"
     },
     "app.js": {
-      "bytes": 13320,
-      "sha256": "82e7c06684cf6b7824edf82f2f471b7aac2d3c97815f7f9a06fe38baf29b08f4"
+      "bytes": 16850,
+      "sha256": "e2111ec7ec09dcb66e20670edd2472b4ce273c23ab0210cc7c2e778a19220ba2"
     },
     "browser_manifest.json": {
-      "bytes": 3499,
-      "sha256": "39d7cd1603dd2f6337ef3b3a5b4b381ae43ff8695f07d06001a7c3381476702c"
+      "bytes": 3987,
+      "sha256": "4070bbc6dbd73b47b6a2df48331e1b8bf42b53b9c765940c0c94d9e56e72db93"
     },
     "bst-city-ink-hero-v1.png": {
       "bytes": 1122010,
       "sha256": "9dd59db3b68e3bbf48d57ba5e47b49b2a454d1ca50dfff0c3fa023ae7ab94951"
     },
     "data.js": {
-      "bytes": 14131588,
-      "sha256": "d9d7234195fc93750ccea92607372f64119d8f52609da93cde90453c1c6d8fc0"
+      "bytes": 14389038,
+      "sha256": "ac9bf13c4b43456742750f324d82feacc08c58700578bf93aaadfeb7604913e8"
     },
     "favicon.svg": {
       "bytes": 507,
@@ -88,7 +110,7 @@
     },
     "index.html": {
       "bytes": 6177,
-      "sha256": "07b6c33a934486253caf585df59cf46f8240260ea5fd8d27d0b365e7428821bb"
+      "sha256": "a5390f0f95cf494b405c37a339e8c16489fa25b98076788c6242eeefe6b66329"
     },
     "mao-publication-template.css": {
       "bytes": 3375,
@@ -99,17 +121,17 @@
       "sha256": "ef127ab04b465de7c349f3caa5301c66e0fa5114259b7c23137cfdef2532dffe"
     },
     "script.html": {
-      "bytes": 3520,
-      "sha256": "77e1825376650ef627a683772063c4bb3e0928db31c0f7f48747decde526f49b"
+      "bytes": 3525,
+      "sha256": "7b7c7ba03920432e229c2f0be25d50aa6a1e306dc6641b31001958924d55b4d0"
     },
     "styles.css": {
-      "bytes": 11752,
-      "sha256": "90e8c4d1cf8085ddca92ea75ced9ba30877ce9fd2600e45edb045704482cd26d"
+      "bytes": 13010,
+      "sha256": "77208f94aaa92fb9c26810cd0e6e328def39120689cedfb0042c9c0ba0558ec5"
     }
   },
   "format": "mao-bst-dual-release-site-manifest-v2",
   "installer_validation": {
-    "archive_sha256": "4fda54ae008755f71fdedc9da4ab80186e4eae40a2fdeec8f2420ab43ddb6104",
+    "archive_sha256": "2a3dbaca07355d5fe270967373d9719b9ce72639ac9a0f386f7c081baeaf171a",
     "builds": {
       "original-japanese-retail": {
         "corrupt_payload_rejected": true,
@@ -141,10 +163,12 @@
       "one_source_prosecuted_tips_manuscript_shared": true,
       "package_file_hashes_exact": true,
       "public_instructions_match_dual_version_wine_architecture": true,
+      "system_ui_text_translated": true,
+      "ui_artwork_omitted": true,
       "zip_topology_safe": true
     },
     "status": "passed"
   },
-  "release": "v1.1.0",
+  "release": "v1.1.1",
   "status": "installer_verified_dual_release_site"
 }

@@ -1,4 +1,4 @@
-# BLACK SHEEP TOWN — MAO English v1.1.0
+# BLACK SHEEP TOWN — MAO English v1.1.1
 
 A complete English translation patch for two Japanese Windows releases of
 *BLACK SHEEP TOWN*, with the full Steam-authoritative Japanese and English
@@ -6,7 +6,7 @@ script published online.
 
 - [Download and installation guide](https://mao-tls.github.io/black-sheep-town/)
 - [Bilingual script browser](https://mao-tls.github.io/black-sheep-town/script.html)
-- [v1.1.0 release](https://github.com/MAO-TLs/black-sheep-town/releases/tag/v1.1.0)
+- [v1.1.1 release](https://github.com/MAO-TLs/black-sheep-town/releases/tag/v1.1.1)
 
 ## Supported releases
 
@@ -30,13 +30,13 @@ contains binary differences and original MAO files, not the Japanese game.
 
 ## Integrity
 
-- Patch archive SHA-256: `4fda54ae008755f71fdedc9da4ab80186e4eae40a2fdeec8f2420ab43ddb6104`
+- Patch archive SHA-256: `2a3dbaca07355d5fe270967373d9719b9ce72639ac9a0f386f7c081baeaf171a`
 - Steam Japanese `sharedassets0.assets`: `3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8`
-- Steam English `sharedassets0.assets`: `f0d52fa855800acf8d9a122ae675534e64bae8c2c5e2dde9957101b36d51b2bf`
+- Steam English `sharedassets0.assets`: `be6be6da6f14ddf59e94398478ccc4119b94600ea5fe4a4f3868eb12e0e88979`
 - Retail Japanese `data.unity3d`: `0ae68bbd6a1490edfc9410f5134cb49d14a996ae4ec5d6bcd313ec86fb3306cc`
-- Retail English `data.unity3d`: `9848cc7b1a7e649dd2985df1100b3aa60ab5f03a6479abea3d338989842c470b`
-- Canonical translation TSV: `c8fec31c0b00a6309f90a17fb67088b3e4ceefb3083e36999c30b49d8d6bd37c`
-- Runtime-visible Steam corpus: `e48a141e22b67626455584a8202e392486027f01ad32a3968abf379baed91d65`
+- Retail English `data.unity3d`: `78f96a5bc70b20d3b58e1b19d69a8e73cd188d95b13d54364e7d2b6cff21aa44`
+- Canonical translation TSV: `7bdb991a881425bc123ae28e5164435f7df78ec54e4e6646ff66fccb8516228a`
+- Runtime-visible Steam corpus: `89b92548d7019d7550dfd9040fb052410cab4b283e0852fd72fa2c82638aa0c7`
 - Final Tips manuscript: `d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a`
 
 The verification records cover the complete semantic audit, Steam compilation,
