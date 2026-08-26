@@ -1,0 +1,16 @@
+{
+  "build": "steam-build-13300478",
+  "evidence": {
+    "consecutive_dialogue_accumulates": true,
+    "english_script_visible": true,
+    "extended_narration_accumulates": true,
+    "game_launched": true,
+    "reported_clipping_absent": true,
+    "tester": "user",
+    "user_approval": "looks good"
+  },
+  "format": "mao-bst-steam-runtime-validation-v1",
+  "release": "v1.1.2",
+  "status": "passed",
+  "target_sha256": "bb397d3909a6d8c6da6f21122cee78e9fcc0b5018049f78ce1e085bfdbeb1dda"
+}

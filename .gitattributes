@@ -1,2 +1,2 @@
 * text=auto eol=lf
-*.tsv text eol=lf
+*.tsv text eol=lf whitespace=-blank-at-eol

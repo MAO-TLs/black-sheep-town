@@ -1,0 +1,146 @@
+{
+  "archive": {
+    "bytes": 7012861,
+    "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.1.2/BLACK_SHEEP_TOWN_English_v1.1.2.zip",
+    "name": "BLACK_SHEEP_TOWN_English_v1.1.2.zip",
+    "sha256": "ce8d08a656597d0134b1ff235cee826458d49c8d33f35f287580e8c9b9156204"
+  },
+  "builds": {
+    "steam-build-13300478": {
+      "accumulating_input_br_segments": 23404,
+      "authority_receipt_format": "mao-bst-compiled-authority-v1",
+      "authority_receipt_sha256": "c25fa07469efdad6da82a0f4c3dbe0a7d3f9fb2f5348d80bbb509d38f86a68e1",
+      "copied_bytes": 118508734,
+      "delta_format": "mao-bst-file-cdc-delta-v1",
+      "literal_bytes": 11079874,
+      "native_serialized_target_sha256": "bb397d3909a6d8c6da6f21122cee78e9fcc0b5018049f78ce1e085bfdbeb1dda",
+      "page_control_parity_verified": true,
+      "page_control_report_sha256": "d2a18d68f32003c924690ebd3dc2d2637e67769ad47b2b565e2bbbbbbb145eba",
+      "payload_bytes": 2112229,
+      "runtime_verified": true,
+      "source_bytes": 126313228,
+      "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
+      "surgical_container_used": false,
+      "system_ui_metadata": {
+        "payload_bytes": 55332,
+        "source_bytes": 5528636,
+        "source_sha256": "148d5fd72d5437b9a58e6ebc1053c07e14c1b04e6ad98bf5a859e1183e059c04",
+        "target": "Bst_Data/il2cpp_data/Metadata/global-metadata.dat",
+        "target_bytes": 5528636,
+        "target_sha256": "1354262b5f3e10f942a1282a3e92a0f3aa651befe5b6161cc274d05dd20f667b",
+        "translated_literals": 15
+      },
+      "system_ui_omitted": false,
+      "target": "Bst_Data/sharedassets0.assets",
+      "target_bytes": 129588608,
+      "target_sha256": "bb397d3909a6d8c6da6f21122cee78e9fcc0b5018049f78ce1e085bfdbeb1dda",
+      "tips_entries_localized": 211,
+      "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
+      "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
+      "tips_receipt_sha256": "8a5af00af0d800fa4ae838fe057a8b5813351ab0cac2a8c639094d26a37dae41",
+      "ui_artwork_omitted": true
+    }
+  },
+  "checks": {
+    "archive_hash_bound_twice": true,
+    "archive_size_bound": true,
+    "download_url_bound": true,
+    "exactly_one_supported_build": true,
+    "hero_title_exact_stack": true,
+    "retail_payload_absent": true,
+    "runtime_evidence_bound": true,
+    "script_opens_directly": true,
+    "spoiler_gate_absent": true,
+    "standardized_publication_copy": true,
+    "wine_named_crossover_absent": true
+  },
+  "files": {
+    "README.txt": {
+      "bytes": 454,
+      "sha256": "38ab66e706e15753a1fe2d8c37bb842313ebab5bae6c6684ddd4934821e60a3d"
+    },
+    "app.js": {
+      "bytes": 16851,
+      "sha256": "b0de5247843b71210dc5b0947827bff2da8cf153c6afacf871cdb24b1746d997"
+    },
+    "browser_manifest.json": {
+      "bytes": 3989,
+      "sha256": "0c10a47bab505f70f3ba3ee264f559ec1f17cbe8abe65985a76051baaef8b89e"
+    },
+    "bst-city-ink-hero-v1.png": {
+      "bytes": 1122010,
+      "sha256": "9dd59db3b68e3bbf48d57ba5e47b49b2a454d1ca50dfff0c3fa023ae7ab94951"
+    },
+    "data.js": {
+      "bytes": 14389038,
+      "sha256": "6e761b8e5b2a6c7ff3cce893fde0d17d1de21d82728b89f52c807eb00ab085ee"
+    },
+    "favicon.svg": {
+      "bytes": 507,
+      "sha256": "ee489509d4f3f671dc885e63ef4f8bcea741b1ee183f55d55c7102952ba53da8"
+    },
+    "index.html": {
+      "bytes": 5962,
+      "sha256": "976d77bfdb25a933de816205234fa3724671216547e4d3dfc21c43507672ec0e"
+    },
+    "mao-publication-template.css": {
+      "bytes": 3375,
+      "sha256": "ba5e364b91a96297549ae7c552769af9cff01ae044b15c658e770fd2a55e6d7a"
+    },
+    "mao-reader-template.css": {
+      "bytes": 28308,
+      "sha256": "ef127ab04b465de7c349f3caa5301c66e0fa5114259b7c23137cfdef2532dffe"
+    },
+    "script.html": {
+      "bytes": 3527,
+      "sha256": "3177c3abb9935ba04f7314494f3a52145a914bcb64cff469f0e1923a372a3da9"
+    },
+    "styles.css": {
+      "bytes": 13010,
+      "sha256": "77208f94aaa92fb9c26810cd0e6e328def39120689cedfb0042c9c0ba0558ec5"
+    }
+  },
+  "format": "mao-bst-steam-release-site-manifest-v3",
+  "installer_validation": {
+    "archive_sha256": "ce8d08a656597d0134b1ff235cee826458d49c8d33f35f287580e8c9b9156204",
+    "builds": {
+      "steam-build-13300478": {
+        "corrupt_payload_rejected": true,
+        "english_restore_backup_hash_exact": true,
+        "failed_install_transaction_restored_source": true,
+        "fast_reinstall_hash_exact": true,
+        "fresh_source_verified": true,
+        "install_rebuild_hash_exact": true,
+        "japanese_backup_hash_exact": true,
+        "repeat_install_idempotent": true,
+        "restore_hash_exact": true
+      }
+    },
+    "checks": {
+      "exactly_one_supported_build": true,
+      "game_launches": 0,
+      "one_audited_steam_manuscript_drives_browser_and_patch": true,
+      "one_source_prosecuted_tips_manuscript": true,
+      "package_file_hashes_exact": true,
+      "public_instructions_steam_only": true,
+      "retail_payload_absent": true,
+      "runtime_evidence_bound": true,
+      "script_browser_file_hashes_exact": true,
+      "steam_build_exercised": true,
+      "steam_page_control_verified": true,
+      "system_ui_text_translated": true,
+      "ui_artwork_omitted": true,
+      "zip_topology_safe": true
+    },
+    "format": "mao-bst-release-package-validation-v4",
+    "status": "passed"
+  },
+  "release": "v1.1.2",
+  "status": "installer_verified_steam_release_site",
+  "supported_builds": [
+    "steam-build-13300478"
+  ],
+  "unsupported_builds": {
+    "original-japanese-retail": "withheld_pending_runtime_text-rendering_parity"
+  }
+}
