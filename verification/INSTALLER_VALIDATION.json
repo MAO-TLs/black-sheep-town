@@ -1,17 +1,6 @@
 {
-  "archive_sha256": "2a3dbaca07355d5fe270967373d9719b9ce72639ac9a0f386f7c081baeaf171a",
+  "archive_sha256": "e966d4fbcda8e9559f9a016f54c40c42069c68d1b58e5f611a82a1ef7d707c49",
   "builds": {
-    "original-japanese-retail": {
-      "corrupt_payload_rejected": true,
-      "english_restore_backup_hash_exact": true,
-      "failed_install_transaction_restored_source": true,
-      "fast_reinstall_hash_exact": true,
-      "fresh_source_verified": true,
-      "install_rebuild_hash_exact": true,
-      "japanese_backup_hash_exact": true,
-      "repeat_install_idempotent": true,
-      "restore_hash_exact": true
-    },
     "steam-build-13300478": {
       "corrupt_payload_rejected": true,
       "english_restore_backup_hash_exact": true,
@@ -25,16 +14,22 @@
     }
   },
   "checks": {
-    "both_supported_builds_exercised": true,
+    "exactly_one_supported_build": true,
     "game_launches": 0,
-    "one_audited_steam_source_manuscript_drives_browser_and_both_patches": true,
-    "one_source_prosecuted_tips_manuscript_shared": true,
+    "one_audited_steam_manuscript_drives_browser_and_patch": true,
+    "one_source_prosecuted_tips_manuscript": true,
     "package_file_hashes_exact": true,
-    "public_instructions_match_dual_version_wine_architecture": true,
+    "public_instructions_steam_only": true,
+    "retail_payload_absent": true,
+    "runtime_evidence_bound": false,
+    "runtime_validation_waived": true,
+    "script_browser_file_hashes_exact": true,
+    "steam_build_exercised": true,
+    "steam_page_control_verified": true,
     "system_ui_text_translated": true,
     "ui_artwork_omitted": true,
     "zip_topology_safe": true
   },
-  "format": "mao-bst-dual-release-package-validation-v3",
-  "status": "passed"
+  "format": "mao-bst-release-package-validation-v5",
+  "status": "static_verified"
 }

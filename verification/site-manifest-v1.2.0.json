@@ -1,22 +1,22 @@
 {
   "archive": {
-    "bytes": 7058971,
+    "bytes": 7761162,
     "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.2.0/BLACK_SHEEP_TOWN_English_v1.2.0.zip",
     "name": "BLACK_SHEEP_TOWN_English_v1.2.0.zip",
-    "sha256": "5c482544eaa7c581691c1de65845992b40437ab0deae33e9fc03a8d6d5a1e627"
+    "sha256": "e966d4fbcda8e9559f9a016f54c40c42069c68d1b58e5f611a82a1ef7d707c49"
   },
   "builds": {
     "steam-build-13300478": {
-      "accumulating_input_br_segments": 23394,
+      "accumulating_input_br_segments": 23217,
       "authority_receipt_format": "mao-bst-compiled-authority-v1",
       "authority_receipt_sha256": "7666640b76e6c434fa1422c38d274a6df75b2b0fa31c9cafadec219321d9a5a7",
       "copied_bytes": 118508734,
       "delta_format": "mao-bst-file-cdc-delta-v1",
-      "literal_bytes": 11174450,
-      "native_serialized_target_sha256": "c253c410404fe9fda9a242e3217ec1b8d7479bb30a66f426768a96313cdb59bc",
+      "literal_bytes": 21932746,
+      "native_serialized_target_sha256": "33d422526445a512c1369ac590cd7d180935b8a700be7ffa8808fd11047aaaf8",
       "page_control_parity_verified": true,
-      "page_control_report_sha256": "d057d35f9c610635c50a59e3b2f17de211a9ea1a5f3b5d69c8dfbc28f144663f",
-      "payload_bytes": 2134983,
+      "page_control_report_sha256": "a6489498fcfd1f4e3ef6dedf1b4d15829a8d7d8a8d5e6cc98487a3fc3a174007",
+      "payload_bytes": 2859193,
       "runtime_verified": false,
       "source_bytes": 126313228,
       "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
@@ -32,8 +32,8 @@
       },
       "system_ui_omitted": false,
       "target": "Bst_Data/sharedassets0.assets",
-      "target_bytes": 129683184,
-      "target_sha256": "c253c410404fe9fda9a242e3217ec1b8d7479bb30a66f426768a96313cdb59bc",
+      "target_bytes": 140441480,
+      "target_sha256": "33d422526445a512c1369ac590cd7d180935b8a700be7ffa8808fd11047aaaf8",
       "tips_entries_localized": 211,
       "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
       "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
@@ -66,7 +66,7 @@
     },
     "browser_manifest.json": {
       "bytes": 3995,
-      "sha256": "95b8dedc9fddd83fe38a48faa3663160d239f33d32550570262ed7c44a80361c"
+      "sha256": "51316dcd1fbaa9c024f599e5572932266cd02eb9876e0ffb33e5ef841a332de3"
     },
     "bst-city-ink-hero-v1.png": {
       "bytes": 1122010,
@@ -82,7 +82,7 @@
     },
     "index.html": {
       "bytes": 5962,
-      "sha256": "8e007b2ac673113c66e445c125fbdddf6f498b973a0d79783f163fd2387691e4"
+      "sha256": "ca58e92eaa6c9f39cdcaa8ecf138e03fc1810b6594160a6ef7dcb630631e2657"
     },
     "mao-publication-template.css": {
       "bytes": 3375,
@@ -103,7 +103,7 @@
   },
   "format": "mao-bst-steam-release-site-manifest-v4",
   "installer_validation": {
-    "archive_sha256": "5c482544eaa7c581691c1de65845992b40437ab0deae33e9fc03a8d6d5a1e627",
+    "archive_sha256": "e966d4fbcda8e9559f9a016f54c40c42069c68d1b58e5f611a82a1ef7d707c49",
     "builds": {
       "steam-build-13300478": {
         "corrupt_payload_rejected": true,

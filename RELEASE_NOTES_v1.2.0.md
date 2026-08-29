@@ -16,10 +16,18 @@ patch and bilingual browser.
 
 ## Typesetting
 
-All 6,347 Japanese page boundaries are retained. Consecutive dialogue and
-narration accumulate whenever they fit the active message window. The English
-projection adds only 14 overflow clears, each at a complete sentence, and
-locally resizes long one-line cinematic text instead of splitting it.
+All 6,347 Japanese page boundaries are retained. Every one of the 6,351
+shipped Japanese pages was measured in its active message window, across all
+18 window layouts. Consecutive dialogue and narration accumulate whenever they
+fit; the English projection adds 200 conservative overflow clears. Of those,
+199 land at complete sentences. One unusually long sentence in a two-line
+interstitial continues across a clause boundary. Long one-line cinematic text
+is locally resized instead of split.
+
+The runtime projection also converts only in-word curly apostrophes to the
+engine-safe straight form, preventing contractions and possessives from
+breaking after the apostrophe. The public manuscript remains typographically
+unchanged.
 
 ## Verification
 
@@ -38,4 +46,4 @@ Download and extract `BLACK_SHEEP_TOWN_English_v1.2.0.zip`, then follow the
 
 ## SHA-256
 
-`5c482544eaa7c581691c1de65845992b40437ab0deae33e9fc03a8d6d5a1e627`
+`e966d4fbcda8e9559f9a016f54c40c42069c68d1b58e5f611a82a1ef7d707c49`

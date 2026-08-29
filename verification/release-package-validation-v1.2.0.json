@@ -1,5 +1,5 @@
 {
-  "archive_sha256": "5c482544eaa7c581691c1de65845992b40437ab0deae33e9fc03a8d6d5a1e627",
+  "archive_sha256": "e966d4fbcda8e9559f9a016f54c40c42069c68d1b58e5f611a82a1ef7d707c49",
   "builds": {
     "steam-build-13300478": {
       "corrupt_payload_rejected": true,

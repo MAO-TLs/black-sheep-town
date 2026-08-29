@@ -2,120 +2,1529 @@
   "checks": {
     "all_japanese_page_boundaries_retained": true,
     "all_visible_english_refs_projected_once": true,
-    "english_only_breaks_at_sentence_boundaries": true,
+    "english_only_breaks_at_sentence_or_unavoidable_clause_boundaries": true,
     "english_overflow_clears_only_at_input_waits": true,
     "every_live_page_within_active_window": true,
     "full_compiled_grid_projection_exact": true,
     "japanese_input_br_accumulates_when_english_fits": true,
-    "steam_b1_window4_overflow_regression": true
+    "steam_b1_window4_overflow_regression": true,
+    "steam_in_word_apostrophe_breaks_blocked": true,
+    "steam_x6_window15_overflow_regression": true
   },
+  "engine_safe_apostrophes": 12211,
   "english": {
-    "accumulating_segments": 23394,
+    "accumulating_segments": 23217,
     "english_only_break_boundaries": [
       {
         "kind": "sentence",
         "route": "A1",
-        "row_index": 207
+        "row_index": 56,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A1",
+        "row_index": 207,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "A2-2",
-        "row_index": 84
+        "row_index": 13,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 84,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 291,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 298,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 416,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 453,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 464,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 612,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "A3",
-        "row_index": 916
+        "row_index": 87,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 126,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 387,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 916,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "A4",
-        "row_index": 451
+        "row_index": 86,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 152,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 377,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 394,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 450,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 129,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 330,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 406,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 463,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 933,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "A6",
-        "row_index": 628
+        "row_index": 181,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "A6",
-        "row_index": 689
+        "row_index": 373,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 544,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 628,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 689,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 730,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A7",
+        "row_index": 151,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 31,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 35,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 62,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 153,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 173,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 390,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 485,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 496,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 580,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 585,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 595,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 599,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 620,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 688,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 797,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "B1",
-        "row_index": 526
+        "row_index": 141,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B1",
+        "row_index": 525,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 246,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 366,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 510,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 513,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 514,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 519,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 533,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 537,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 541,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-1",
+        "row_index": 64,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-1",
+        "row_index": 78,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-2",
+        "row_index": 13,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B4-1",
+        "row_index": 182,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 279,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 314,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 328,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 339,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 566,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 51,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 160,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 811,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 100,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 147,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 317,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 326,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 336,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 41,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 97,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 104,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 159,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 190,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 274,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 314,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 473,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 256,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 261,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 301,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 306,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 308,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 350,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 380,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 288,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 401,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 404,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 411,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 50,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 64,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 89,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 496,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D2",
+        "row_index": 24,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D3",
+        "row_index": 381,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 111,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 122,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 135,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 185,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 193,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 204,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 224,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 243,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 247,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 15,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 200,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 386,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 565,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 570,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 575,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 590,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 599,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E3",
+        "row_index": 209,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E3",
+        "row_index": 446,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 660,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 262,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 324,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 408,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 435,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 375,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 447,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 454,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "F1",
-        "row_index": 136
+        "row_index": 136,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F2",
+        "row_index": 614,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "F3",
-        "row_index": 251
+        "row_index": 250,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 13,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 19,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G2",
+        "row_index": 6,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 109,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 113,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X10",
+        "row_index": 373,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "clause",
+        "route": "X11",
+        "row_index": 6,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X11",
+        "row_index": 280,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 213,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 216,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 227,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 239,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 242,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 244,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 255,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 270,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X14",
+        "row_index": 467,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X14",
+        "row_index": 475,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "X15-1",
-        "row_index": 53
+        "row_index": 52,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "X15-2",
-        "row_index": 227
+        "row_index": 132,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-2",
+        "row_index": 227,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 258,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 959,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 964,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 967,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 975,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 979,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 996,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 1000,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 1007,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 1092,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "X19",
-        "row_index": 472
+        "row_index": 400,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X19",
+        "row_index": 422,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X19",
+        "row_index": 472,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 14,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 198,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 286,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 324,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 330,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 333,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 338,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 144,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 225,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 259,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 270,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 285,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 291,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 296,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 461,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "X3-1",
-        "row_index": 438
+        "row_index": 199,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 262,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 320,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 438,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 197,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 724,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 754,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 905,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 912,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 927,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 122,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 192,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 452,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 475,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X6-1",
+        "row_index": 285,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X6-2",
+        "row_index": 474,
+        "translated_row_continuation": false
       },
       {
         "kind": "sentence",
         "route": "X7",
-        "row_index": 540
+        "row_index": 538,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 707,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 712,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 716,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 721,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X8",
+        "row_index": 71,
+        "translated_row_continuation": false
       }
     ],
-    "english_only_page_breaks": 14,
+    "english_only_page_breaks": 200,
     "japanese_page_boundaries_retained": 6347,
-    "max_page_visual_lines": 22,
+    "max_page_visual_lines": 18,
     "max_visual_line_characters": 159,
     "page_visual_line_histogram": {
-      "1": 177,
-      "10": 595,
-      "11": 548,
-      "12": 558,
-      "13": 503,
-      "14": 422,
-      "15": 376,
-      "16": 245,
-      "17": 142,
-      "18": 75,
-      "19": 30,
-      "2": 272,
-      "20": 19,
-      "21": 2,
-      "22": 1,
-      "3": 300,
-      "4": 285,
-      "5": 243,
-      "6": 268,
-      "7": 332,
-      "8": 444,
-      "9": 524
+      "1": 194,
+      "10": 608,
+      "11": 552,
+      "12": 571,
+      "13": 516,
+      "14": 428,
+      "15": 381,
+      "16": 237,
+      "17": 122,
+      "18": 66,
+      "2": 322,
+      "3": 350,
+      "4": 325,
+      "5": 231,
+      "6": 277,
+      "7": 351,
+      "8": 467,
+      "9": 549
     },
     "projected_refs": 29753,
-    "rendered_pages": 6361,
-    "text_segments": 29755
+    "rendered_pages": 6547,
+    "text_segments": 29764,
+    "unavoidable_clause_continuations": 1
   },
   "format": "mao-bst-page-control-parity-v1",
+  "message_windows": {
+    "MessageWindow1": {
+      "english_projection_line_limit": 18,
+      "max_visual_lines": 18,
+      "pages": 4464,
+      "source_proven_japanese_line_count": 18,
+      "visual_line_histogram": {
+        "1": 8,
+        "10": 496,
+        "11": 504,
+        "12": 514,
+        "13": 460,
+        "14": 375,
+        "15": 336,
+        "16": 220,
+        "17": 122,
+        "18": 66,
+        "2": 12,
+        "3": 30,
+        "4": 70,
+        "5": 88,
+        "6": 150,
+        "7": 249,
+        "8": 333,
+        "9": 431
+      }
+    },
+    "MessageWindow10": {
+      "english_projection_line_limit": 14,
+      "max_visual_lines": 14,
+      "pages": 31,
+      "source_proven_japanese_line_count": 14,
+      "visual_line_histogram": {
+        "10": 2,
+        "11": 4,
+        "12": 1,
+        "13": 2,
+        "14": 2,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 3,
+        "8": 4,
+        "9": 6
+      }
+    },
+    "MessageWindow11": {
+      "english_projection_line_limit": 16,
+      "max_visual_lines": 16,
+      "pages": 64,
+      "source_proven_japanese_line_count": 16,
+      "visual_line_histogram": {
+        "10": 11,
+        "11": 8,
+        "12": 3,
+        "13": 5,
+        "14": 5,
+        "15": 5,
+        "16": 4,
+        "4": 3,
+        "5": 4,
+        "6": 4,
+        "7": 2,
+        "8": 6,
+        "9": 4
+      }
+    },
+    "MessageWindow12": {
+      "english_projection_line_limit": 2,
+      "max_visual_lines": 2,
+      "pages": 64,
+      "source_proven_japanese_line_count": 2,
+      "visual_line_histogram": {
+        "1": 42,
+        "2": 22
+      }
+    },
+    "MessageWindow13": {
+      "english_projection_line_limit": 14,
+      "max_visual_lines": 12,
+      "pages": 10,
+      "source_proven_japanese_line_count": 14,
+      "visual_line_histogram": {
+        "10": 3,
+        "12": 3,
+        "3": 2,
+        "5": 1,
+        "8": 1
+      }
+    },
+    "MessageWindow14": {
+      "english_projection_line_limit": 13,
+      "max_visual_lines": 12,
+      "pages": 7,
+      "source_proven_japanese_line_count": 13,
+      "visual_line_histogram": {
+        "10": 1,
+        "12": 2,
+        "2": 3,
+        "5": 1
+      }
+    },
+    "MessageWindow15": {
+      "english_projection_line_limit": 4,
+      "max_visual_lines": 4,
+      "pages": 417,
+      "source_proven_japanese_line_count": 7,
+      "visual_line_histogram": {
+        "1": 67,
+        "2": 157,
+        "3": 123,
+        "4": 70
+      }
+    },
+    "MessageWindow16": {
+      "english_projection_line_limit": 4,
+      "max_visual_lines": 4,
+      "pages": 25,
+      "source_proven_japanese_line_count": 4,
+      "visual_line_histogram": {
+        "2": 6,
+        "3": 8,
+        "4": 11
+      }
+    },
+    "MessageWindow17": {
+      "english_projection_line_limit": 1,
+      "max_visual_lines": 1,
+      "pages": 23,
+      "source_proven_japanese_line_count": 1,
+      "visual_line_histogram": {
+        "1": 23
+      }
+    },
+    "MessageWindow18": {
+      "english_projection_line_limit": 1,
+      "max_visual_lines": 1,
+      "pages": 1,
+      "source_proven_japanese_line_count": 1,
+      "visual_line_histogram": {
+        "1": 1
+      }
+    },
+    "MessageWindow2": {
+      "english_projection_line_limit": 15,
+      "max_visual_lines": 15,
+      "pages": 252,
+      "source_proven_japanese_line_count": 15,
+      "visual_line_histogram": {
+        "1": 1,
+        "10": 18,
+        "11": 21,
+        "12": 25,
+        "13": 31,
+        "14": 28,
+        "15": 26,
+        "2": 3,
+        "3": 7,
+        "4": 12,
+        "5": 6,
+        "6": 13,
+        "7": 14,
+        "8": 21,
+        "9": 26
+      }
+    },
+    "MessageWindow3": {
+      "english_projection_line_limit": 16,
+      "max_visual_lines": 16,
+      "pages": 213,
+      "source_proven_japanese_line_count": 16,
+      "visual_line_histogram": {
+        "10": 25,
+        "11": 15,
+        "12": 22,
+        "13": 18,
+        "14": 18,
+        "15": 14,
+        "16": 13,
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "6": 21,
+        "7": 24,
+        "8": 19,
+        "9": 15
+      }
+    },
+    "MessageWindow4": {
+      "english_projection_line_limit": 4,
+      "max_visual_lines": 4,
+      "pages": 226,
+      "source_proven_japanese_line_count": 4,
+      "visual_line_histogram": {
+        "1": 36,
+        "2": 64,
+        "3": 83,
+        "4": 43
+      }
+    },
+    "MessageWindow5": {
+      "english_projection_line_limit": 7,
+      "max_visual_lines": 7,
+      "pages": 93,
+      "source_proven_japanese_line_count": 7,
+      "visual_line_histogram": {
+        "1": 1,
+        "2": 4,
+        "3": 8,
+        "4": 33,
+        "5": 32,
+        "6": 14,
+        "7": 1
+      }
+    },
+    "MessageWindow6": {
+      "english_projection_line_limit": 5,
+      "max_visual_lines": 5,
+      "pages": 130,
+      "source_proven_japanese_line_count": 5,
+      "visual_line_histogram": {
+        "1": 5,
+        "2": 17,
+        "3": 43,
+        "4": 36,
+        "5": 29
+      }
+    },
+    "MessageWindow7": {
+      "english_projection_line_limit": 10,
+      "max_visual_lines": 10,
+      "pages": 54,
+      "source_proven_japanese_line_count": 10,
+      "visual_line_histogram": {
+        "10": 4,
+        "2": 1,
+        "3": 3,
+        "4": 9,
+        "5": 9,
+        "6": 7,
+        "7": 7,
+        "8": 9,
+        "9": 5
+      }
+    },
+    "MessageWindow8": {
+      "english_projection_line_limit": 10,
+      "max_visual_lines": 10,
+      "pages": 463,
+      "source_proven_japanese_line_count": 10,
+      "visual_line_histogram": {
+        "1": 10,
+        "10": 47,
+        "2": 32,
+        "3": 40,
+        "4": 33,
+        "5": 56,
+        "6": 64,
+        "7": 51,
+        "8": 70,
+        "9": 60
+      }
+    },
+    "MessageWindow9": {
+      "english_projection_line_limit": 12,
+      "max_visual_lines": 12,
+      "pages": 10,
+      "source_proven_japanese_line_count": 12,
+      "visual_line_histogram": {
+        "10": 1,
+        "12": 1,
+        "4": 1,
+        "6": 1,
+        "8": 4,
+        "9": 2
+      }
+    }
+  },
   "platform": "steam",
   "source": {
     "input_br_rows": 23408,

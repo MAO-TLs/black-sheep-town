@@ -11,16 +11,16 @@
   },
   "builds": {
     "steam-build-13300478": {
-      "accumulating_input_br_segments": 23394,
+      "accumulating_input_br_segments": 23217,
       "authority_receipt_format": "mao-bst-compiled-authority-v1",
       "authority_receipt_sha256": "7666640b76e6c434fa1422c38d274a6df75b2b0fa31c9cafadec219321d9a5a7",
       "copied_bytes": 118508734,
       "delta_format": "mao-bst-file-cdc-delta-v1",
-      "literal_bytes": 11174450,
-      "native_serialized_target_sha256": "c253c410404fe9fda9a242e3217ec1b8d7479bb30a66f426768a96313cdb59bc",
+      "literal_bytes": 21932746,
+      "native_serialized_target_sha256": "33d422526445a512c1369ac590cd7d180935b8a700be7ffa8808fd11047aaaf8",
       "page_control_parity_verified": true,
-      "page_control_report_sha256": "d057d35f9c610635c50a59e3b2f17de211a9ea1a5f3b5d69c8dfbc28f144663f",
-      "payload_bytes": 2134983,
+      "page_control_report_sha256": "a6489498fcfd1f4e3ef6dedf1b4d15829a8d7d8a8d5e6cc98487a3fc3a174007",
+      "payload_bytes": 2859193,
       "runtime_verified": false,
       "source_bytes": 126313228,
       "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
@@ -36,8 +36,8 @@
       },
       "system_ui_omitted": false,
       "target": "Bst_Data/sharedassets0.assets",
-      "target_bytes": 129683184,
-      "target_sha256": "c253c410404fe9fda9a242e3217ec1b8d7479bb30a66f426768a96313cdb59bc",
+      "target_bytes": 140441480,
+      "target_sha256": "33d422526445a512c1369ac590cd7d180935b8a700be7ffa8808fd11047aaaf8",
       "tips_entries_localized": 211,
       "tips_manuscript_sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a",
       "tips_receipt_format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
@@ -55,8 +55,8 @@
       "sha256": "3cbf6770c3cbbe044571c5a6e6897e69a2e1a1db1a1b6fbce90bacdf91cb0490"
     },
     "README.txt": {
-      "bytes": 2419,
-      "sha256": "85c05f03da1c89b690f7bffc8548393e5767af4de9d5b505db60052ce97f1f23"
+      "bytes": 2488,
+      "sha256": "2ac2f2b1ce45bbf7e61222a166f85979b21b516955bd667f77bc303c3d67b2d0"
     },
     "Restore BLACK SHEEP TOWN Japanese.bat": {
       "bytes": 369,
@@ -119,8 +119,8 @@
       "sha256": "7666640b76e6c434fa1422c38d274a6df75b2b0fa31c9cafadec219321d9a5a7"
     },
     "Verification/steam-build-13300478/delta-manifest.json": {
-      "bytes": 84848,
-      "sha256": "c2b3b91cf3e319822b15a6369567d1ee979e4c820cdd44dd4f3d649c1c0ce3ce"
+      "bytes": 84851,
+      "sha256": "0546cb72c8f967709594d8ab9e43387d39254cbf6501e43b44803eb66d8dc4d5"
     },
     "Verification/steam-build-13300478/manuscript-audit.json": {
       "bytes": 2016,
@@ -135,12 +135,12 @@
       "sha256": "6ed97c62cf4e5ad601df6557eabbead3bab9aa100b1a355e5d16ce34783cfaba"
     },
     "Verification/steam-build-13300478/page-control-parity.json": {
-      "bytes": 2715,
-      "sha256": "d057d35f9c610635c50a59e3b2f17de211a9ea1a5f3b5d69c8dfbc28f144663f"
+      "bytes": 35484,
+      "sha256": "a6489498fcfd1f4e3ef6dedf1b4d15829a8d7d8a8d5e6cc98487a3fc3a174007"
     },
     "Verification/steam-build-13300478/patch-manifest.json": {
-      "bytes": 38872,
-      "sha256": "efce0b9c9eda05321a1502c80aa10f50cf68d13c1ca8748bb59e50149767081d"
+      "bytes": 39153,
+      "sha256": "a878a717db427090ea5c2eea9e9baa7f56d38eb5bf528466cb431e985c36e75d"
     },
     "Verification/steam-build-13300478/tips-receipt.json": {
       "bytes": 2359,
@@ -171,12 +171,12 @@
       "sha256": "0b9e3e6c927e014584f1decd16d1c11bedfd74eb97a635f39391b5445c47cdd1"
     },
     "payload/steam-sharedassets0/literals.zlib.001": {
-      "bytes": 2134983,
-      "sha256": "4de1d86ebd2311d2c63ffcff79f63aa9776e8254315f898a6943d80ae510aa3e"
+      "bytes": 2859193,
+      "sha256": "6d9553af1eb5d7d60aa02f86bf96e6d074ddb748bb6e5462337b710cfeb41640"
     },
     "payload/steam-sharedassets0/manifest.json": {
-      "bytes": 84848,
-      "sha256": "c2b3b91cf3e319822b15a6369567d1ee979e4c820cdd44dd4f3d649c1c0ce3ce"
+      "bytes": 84851,
+      "sha256": "0546cb72c8f967709594d8ab9e43387d39254cbf6501e43b44803eb66d8dc4d5"
     }
   },
   "format": "mao-bst-release-package-v5",
