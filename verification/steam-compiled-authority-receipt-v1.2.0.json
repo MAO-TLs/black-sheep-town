@@ -1,0 +1,603 @@
+{
+  "alignment": [
+    {
+      "compiled_end": 713,
+      "compiled_start": 1,
+      "editorial_end": 713,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A1"
+    },
+    {
+      "compiled_end": 426,
+      "compiled_start": 1,
+      "editorial_end": 426,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A2-1"
+    },
+    {
+      "compiled_end": 517,
+      "compiled_start": 1,
+      "editorial_end": 517,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A2-2"
+    },
+    {
+      "compiled_end": 690,
+      "compiled_start": 1,
+      "editorial_end": 690,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A3"
+    },
+    {
+      "compiled_end": 497,
+      "compiled_start": 1,
+      "editorial_end": 497,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A4"
+    },
+    {
+      "compiled_end": 781,
+      "compiled_start": 1,
+      "editorial_end": 781,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A5"
+    },
+    {
+      "compiled_end": 714,
+      "compiled_start": 1,
+      "editorial_end": 714,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A6"
+    },
+    {
+      "compiled_end": 196,
+      "compiled_start": 1,
+      "editorial_end": 196,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "A7"
+    },
+    {
+      "compiled_end": 295,
+      "compiled_start": 1,
+      "editorial_end": 295,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "a8"
+    },
+    {
+      "compiled_end": 296,
+      "compiled_start": 296,
+      "editorial_end": null,
+      "editorial_start": null,
+      "opcode": "insert",
+      "runtime_asset": "a8"
+    },
+    {
+      "compiled_end": 623,
+      "compiled_start": 297,
+      "editorial_end": 622,
+      "editorial_start": 296,
+      "opcode": "equal",
+      "runtime_asset": "a8"
+    },
+    {
+      "compiled_end": 654,
+      "compiled_start": 1,
+      "editorial_end": 654,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B1"
+    },
+    {
+      "compiled_end": 403,
+      "compiled_start": 1,
+      "editorial_end": 403,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B2"
+    },
+    {
+      "compiled_end": 260,
+      "compiled_start": 1,
+      "editorial_end": 260,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B3-1"
+    },
+    {
+      "compiled_end": 340,
+      "compiled_start": 1,
+      "editorial_end": 340,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B3-2"
+    },
+    {
+      "compiled_end": 327,
+      "compiled_start": 1,
+      "editorial_end": 327,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B4-1"
+    },
+    {
+      "compiled_end": 178,
+      "compiled_start": 1,
+      "editorial_end": 178,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B4-2"
+    },
+    {
+      "compiled_end": 453,
+      "compiled_start": 1,
+      "editorial_end": 453,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B5"
+    },
+    {
+      "compiled_end": 773,
+      "compiled_start": 1,
+      "editorial_end": 773,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "B6"
+    },
+    {
+      "compiled_end": 294,
+      "compiled_start": 1,
+      "editorial_end": 294,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "C1"
+    },
+    {
+      "compiled_end": 560,
+      "compiled_start": 1,
+      "editorial_end": 560,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "C2"
+    },
+    {
+      "compiled_end": 312,
+      "compiled_start": 1,
+      "editorial_end": 312,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "C3"
+    },
+    {
+      "compiled_end": 284,
+      "compiled_start": 1,
+      "editorial_end": 284,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "C4"
+    },
+    {
+      "compiled_end": 579,
+      "compiled_start": 1,
+      "editorial_end": 579,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "D1"
+    },
+    {
+      "compiled_end": 201,
+      "compiled_start": 1,
+      "editorial_end": 201,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "D2"
+    },
+    {
+      "compiled_end": 202,
+      "compiled_start": 202,
+      "editorial_end": null,
+      "editorial_start": null,
+      "opcode": "insert",
+      "runtime_asset": "D2"
+    },
+    {
+      "compiled_end": 390,
+      "compiled_start": 203,
+      "editorial_end": 389,
+      "editorial_start": 202,
+      "opcode": "equal",
+      "runtime_asset": "D2"
+    },
+    {
+      "compiled_end": 398,
+      "compiled_start": 1,
+      "editorial_end": 398,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "D3"
+    },
+    {
+      "compiled_end": 508,
+      "compiled_start": 1,
+      "editorial_end": 508,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "D5"
+    },
+    {
+      "compiled_end": 309,
+      "compiled_start": 1,
+      "editorial_end": 309,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E1"
+    },
+    {
+      "compiled_end": 500,
+      "compiled_start": 1,
+      "editorial_end": 500,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E2"
+    },
+    {
+      "compiled_end": 589,
+      "compiled_start": 1,
+      "editorial_end": 589,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E3"
+    },
+    {
+      "compiled_end": 646,
+      "compiled_start": 1,
+      "editorial_end": 646,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E4"
+    },
+    {
+      "compiled_end": 413,
+      "compiled_start": 1,
+      "editorial_end": 413,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E5"
+    },
+    {
+      "compiled_end": 508,
+      "compiled_start": 1,
+      "editorial_end": 508,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E6"
+    },
+    {
+      "compiled_end": 287,
+      "compiled_start": 1,
+      "editorial_end": 287,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "E7"
+    },
+    {
+      "compiled_end": 476,
+      "compiled_start": 1,
+      "editorial_end": 476,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "F1"
+    },
+    {
+      "compiled_end": 618,
+      "compiled_start": 1,
+      "editorial_end": 618,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "F2"
+    },
+    {
+      "compiled_end": 512,
+      "compiled_start": 1,
+      "editorial_end": 512,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "F3"
+    },
+    {
+      "compiled_end": 374,
+      "compiled_start": 1,
+      "editorial_end": 374,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "F4"
+    },
+    {
+      "compiled_end": 461,
+      "compiled_start": 1,
+      "editorial_end": 461,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "F5"
+    },
+    {
+      "compiled_end": 313,
+      "compiled_start": 1,
+      "editorial_end": 313,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "G1"
+    },
+    {
+      "compiled_end": 456,
+      "compiled_start": 1,
+      "editorial_end": 456,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "G2"
+    },
+    {
+      "compiled_end": 440,
+      "compiled_start": 1,
+      "editorial_end": 440,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "G3"
+    },
+    {
+      "compiled_end": 348,
+      "compiled_start": 1,
+      "editorial_end": 348,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "x1"
+    },
+    {
+      "compiled_end": 430,
+      "compiled_start": 1,
+      "editorial_end": 430,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X10"
+    },
+    {
+      "compiled_end": 595,
+      "compiled_start": 1,
+      "editorial_end": 595,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X11"
+    },
+    {
+      "compiled_end": 328,
+      "compiled_start": 1,
+      "editorial_end": 328,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "x12"
+    },
+    {
+      "compiled_end": 713,
+      "compiled_start": 1,
+      "editorial_end": 713,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X13"
+    },
+    {
+      "compiled_end": 574,
+      "compiled_start": 1,
+      "editorial_end": 574,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X14"
+    },
+    {
+      "compiled_end": 405,
+      "compiled_start": 1,
+      "editorial_end": 405,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X15-1"
+    },
+    {
+      "compiled_end": 491,
+      "compiled_start": 1,
+      "editorial_end": 491,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X15-2"
+    },
+    {
+      "compiled_end": 30,
+      "compiled_start": 1,
+      "editorial_end": 30,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X16"
+    },
+    {
+      "compiled_end": null,
+      "compiled_start": null,
+      "editorial_end": 31,
+      "editorial_start": 31,
+      "opcode": "delete",
+      "runtime_asset": "X16"
+    },
+    {
+      "compiled_end": 1010,
+      "compiled_start": 31,
+      "editorial_end": 1011,
+      "editorial_start": 32,
+      "opcode": "equal",
+      "runtime_asset": "X16"
+    },
+    {
+      "compiled_end": 642,
+      "compiled_start": 1,
+      "editorial_end": 642,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X17"
+    },
+    {
+      "compiled_end": 355,
+      "compiled_start": 1,
+      "editorial_end": 355,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X18"
+    },
+    {
+      "compiled_end": 279,
+      "compiled_start": 1,
+      "editorial_end": 279,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X19"
+    },
+    {
+      "compiled_end": 318,
+      "compiled_start": 1,
+      "editorial_end": 318,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X2-1"
+    },
+    {
+      "compiled_end": 390,
+      "compiled_start": 1,
+      "editorial_end": 390,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X2-2"
+    },
+    {
+      "compiled_end": 425,
+      "compiled_start": 1,
+      "editorial_end": 425,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X3-1"
+    },
+    {
+      "compiled_end": 845,
+      "compiled_start": 1,
+      "editorial_end": 845,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X3-2"
+    },
+    {
+      "compiled_end": 430,
+      "compiled_start": 1,
+      "editorial_end": 430,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X3-3"
+    },
+    {
+      "compiled_end": 279,
+      "compiled_start": 1,
+      "editorial_end": 279,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X4"
+    },
+    {
+      "compiled_end": 457,
+      "compiled_start": 1,
+      "editorial_end": 457,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X6-1"
+    },
+    {
+      "compiled_end": 328,
+      "compiled_start": 1,
+      "editorial_end": 328,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X6-2"
+    },
+    {
+      "compiled_end": 632,
+      "compiled_start": 1,
+      "editorial_end": 632,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X7"
+    },
+    {
+      "compiled_end": 420,
+      "compiled_start": 1,
+      "editorial_end": 420,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X8"
+    },
+    {
+      "compiled_end": 289,
+      "compiled_start": 1,
+      "editorial_end": 289,
+      "editorial_start": 1,
+      "opcode": "equal",
+      "runtime_asset": "X9"
+    }
+  ],
+  "build": "steam",
+  "counts": {
+    "compiled_only_rows": 2,
+    "compiled_rows": 29755,
+    "delete_compiled_rows": 0,
+    "delete_editorial_rows": 1,
+    "editorial_rows": 29754,
+    "equal_compiled_rows": 29753,
+    "equal_editorial_rows": 29753,
+    "exact_editorial_match_rows": 29753,
+    "insert_compiled_rows": 2,
+    "insert_editorial_rows": 0,
+    "opcode_delete": 1,
+    "opcode_equal": 66,
+    "opcode_insert": 2,
+    "preserved_whitespace_slots": 2,
+    "visible_compiled_rows": 29753,
+    "visible_untranslated_rows": 0
+  },
+  "format": "mao-bst-compiled-authority-v1",
+  "inputs": {
+    "editorial_audit_report": {
+      "format": "mao-bst-steam-in-session-single-author-final-sentinels-v1",
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/single-author-final-v1/final_sentinels.json",
+      "sha256": "61fba0e95a7dafe3ed240820dd063f2955e88915358ad011db326457d889b0c9",
+      "status": "PASS"
+    },
+    "editorial_rows": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/single-author-final-v1/steam_final_translation_rows.tsv",
+      "sha256": "1ad73fa502627500d1ac56bf5bd18de530b8296288fb5676cfaab7a467e24a3b"
+    },
+    "schema_bundle": {
+      "path": "/Users/fletcher/Downloads/BLACK.SHEEP.TOWN.Build.13300478/Bst_Data/StreamingAssets/Windows/bst.scenarios.asset",
+      "sha256": "c9f756aaaedcb022cc8e7d0b088b690078c3237162922a49c29968b6650421b0"
+    },
+    "source_assets": {
+      "path": "/Users/fletcher/Downloads/BLACK.SHEEP.TOWN.Build.13300478/Bst_Data/sharedassets0.assets",
+      "sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8"
+    }
+  },
+  "output": {
+    "topology_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-single-author-v1_2_0/steam_compiled_authority_rows.tsv",
+    "topology_sha256": "d74f0245a76cfd5b60bc1f4cdcd1021d51a8b4ad31d2b598212ac6c9a16a1e6f",
+    "visible_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/compiled-single-author-v1_2_0/steam_compiled_visible_rows.tsv",
+    "visible_sha256": "27f89a6aee7a5bcb7822d0d9f4e24096fed613b267a2cb8dd50aa53bebce7ddd"
+  },
+  "status": "complete_translated_visible_rows"
+}

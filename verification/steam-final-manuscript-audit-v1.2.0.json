@@ -1,0 +1,45 @@
+{
+  "allowed_japanese_script_refs": [
+    "bst-steam-13300478:E3:r16",
+    "bst-steam-13300478:E3:r4",
+    "bst-steam-13300478:X16:r31",
+    "bst-steam-13300478:X18:r38"
+  ],
+  "checks": {
+    "control_markup_exact": true,
+    "english_complete": true,
+    "language_and_honorific_sentinels_clear": true,
+    "revision_dossier_exact": true,
+    "row_and_ref_closure": true,
+    "settled_terminology_sentinels_clear": true,
+    "source_fields_exact": true
+  },
+  "counts": {
+    "failures": 0,
+    "revisions": 10465,
+    "rows": 29754,
+    "scenarios": 63
+  },
+  "failures": [],
+  "format": "mao-bst-steam-in-session-single-author-final-sentinels-v1",
+  "inputs": {
+    "assembly_receipt": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/single-author-final-v1/assembly_receipt.json",
+      "sha256": "908aec8040fe3841167b5f3de229ac365e79093d547825550de99ac75b72f3ad"
+    },
+    "baseline": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/tips-span-normalized-v1_1_1/steam_final_translation_rows.tsv",
+      "sha256": "7bdb991a881425bc123ae28e5164435f7df78ec54e4e6646ff66fccb8516228a"
+    },
+    "candidate": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/single-author-final-v1/steam_final_translation_rows.tsv",
+      "sha256": "1ad73fa502627500d1ac56bf5bd18de530b8296288fb5676cfaab7a467e24a3b"
+    },
+    "dossier": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/single-author-final-v1/revision_dossier.json",
+      "sha256": "b52599aa229cf4c5a5e134e8c748238faf29be8c1b269b6009d1dca391c30530"
+    }
+  },
+  "status": "PASS",
+  "validated_at": "2026-08-29T02:42:46.639737+00:00"
+}

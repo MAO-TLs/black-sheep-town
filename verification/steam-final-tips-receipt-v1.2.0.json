@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "applied": 25,
+    "audit_issues": 25,
+    "records": 211,
+    "rejected": 0
+  },
+  "decisions": {
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/final-tips-v1/audit_decisions.json",
+    "sha256": "7eddc6d981253a1a86217c4afd882e6411f2a9fdc16e9199b79e422938cafe04"
+  },
+  "format": "mao-bst-steam-tips-source-prosecuted-freeze-v1",
+  "frozen_at": "2026-08-23T11:09:43.864491+00:00",
+  "input_manuscript": {
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/adjudicated-tips-v1/steam_adjudicated_tips.tsv",
+    "receipt_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/adjudicated-tips-v1/receipt.json",
+    "receipt_sha256": "b66c0a5b3dae7e718d89b3c1e5ec8e08a2216511aba4d527105e8d039e4fb77d",
+    "sha256": "64583328f048af32952d74d17fbf4b5f5a6973a9f4f90087082145ad38ddcbb1"
+  },
+  "output": {
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/final-tips-v1/steam_final_tips.tsv",
+    "sha256": "d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a"
+  },
+  "source": {
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/source/steam-tips/tips_source.tsv",
+    "sha256": "a2bdb98d8ec82ee75cdea3716e86f213c07842e194dbda5ec147f692f0332d67"
+  },
+  "source_prosecution": {
+    "receipt_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/tips-source-prosecution-v1/receipt.json",
+    "receipt_sha256": "af33ee8dc224046e4990c27114f1ef6ff96218fe1d3ffdb50ca45a6c86d59da9",
+    "result_path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/production-v1/steam_source_v1/tips-source-prosecution-v1/result.json",
+    "result_sha256": "ca73859c2509562027998a39c590814e0ffd568843a35043e65d08ec73860519",
+    "verdict": "issues_found"
+  },
+  "status": "complete_frozen_tips"
+}

@@ -1,0 +1,126 @@
+{
+  "checks": {
+    "all_japanese_page_boundaries_retained": true,
+    "all_visible_english_refs_projected_once": true,
+    "english_only_breaks_at_sentence_boundaries": true,
+    "english_overflow_clears_only_at_input_waits": true,
+    "every_live_page_within_active_window": true,
+    "full_compiled_grid_projection_exact": true,
+    "japanese_input_br_accumulates_when_english_fits": true,
+    "steam_b1_window4_overflow_regression": true
+  },
+  "english": {
+    "accumulating_segments": 23394,
+    "english_only_break_boundaries": [
+      {
+        "kind": "sentence",
+        "route": "A1",
+        "row_index": 207
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 84
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 916
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 451
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 628
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 689
+      },
+      {
+        "kind": "sentence",
+        "route": "B1",
+        "row_index": 526
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 136
+      },
+      {
+        "kind": "sentence",
+        "route": "F3",
+        "row_index": 251
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-1",
+        "row_index": 53
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-2",
+        "row_index": 227
+      },
+      {
+        "kind": "sentence",
+        "route": "X19",
+        "row_index": 472
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 438
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 540
+      }
+    ],
+    "english_only_page_breaks": 14,
+    "japanese_page_boundaries_retained": 6347,
+    "max_page_visual_lines": 22,
+    "max_visual_line_characters": 159,
+    "page_visual_line_histogram": {
+      "1": 177,
+      "10": 595,
+      "11": 548,
+      "12": 558,
+      "13": 503,
+      "14": 422,
+      "15": 376,
+      "16": 245,
+      "17": 142,
+      "18": 75,
+      "19": 30,
+      "2": 272,
+      "20": 19,
+      "21": 2,
+      "22": 1,
+      "3": 300,
+      "4": 285,
+      "5": 243,
+      "6": 268,
+      "7": 332,
+      "8": 444,
+      "9": 524
+    },
+    "projected_refs": 29753,
+    "rendered_pages": 6361,
+    "text_segments": 29755
+  },
+  "format": "mao-bst-page-control-parity-v1",
+  "platform": "steam",
+  "source": {
+    "input_br_rows": 23408,
+    "page_boundaries": 6347
+  },
+  "status": "passed",
+  "verification": "page_control_parity_verified"
+}

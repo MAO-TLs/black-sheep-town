@@ -1,11 +1,11 @@
-# BLACK SHEEP TOWN — MAO English v1.1.2
+# BLACK SHEEP TOWN — MAO English v1.2.0
 
 A complete English translation patch for Steam Build 13300478 of
 *BLACK SHEEP TOWN*, with the full Japanese and English script published online.
 
 - [Download and installation guide](https://mao-tls.github.io/black-sheep-town/)
 - [Bilingual script browser](https://mao-tls.github.io/black-sheep-town/script.html)
-- [v1.1.2 release](https://github.com/MAO-TLs/black-sheep-town/releases/tag/v1.1.2)
+- [v1.2.0 release](https://github.com/MAO-TLs/black-sheep-town/releases/tag/v1.2.0)
 
 ## Supported release
 
@@ -15,7 +15,7 @@ The patch and browser derive from the same finalized Steam-source manuscript.
 The browser contains 29,753 visible lines across 63 scenarios; the published
 editorial corpus contains 29,754 lines, including one non-display line.
 
-The original Japanese Windows retail release is not supported in v1.1.2. Its
+The original Japanese Windows retail release is not supported in v1.2.0. Its
 separate text renderer did not meet the same verified typesetting standard.
 
 ## Requirements
@@ -31,18 +31,18 @@ contains binary differences and original MAO files, not the Japanese game.
 
 ## Integrity
 
-- Patch archive SHA-256: `ce8d08a656597d0134b1ff235cee826458d49c8d33f35f287580e8c9b9156204`
+- Patch archive SHA-256: `5c482544eaa7c581691c1de65845992b40437ab0deae33e9fc03a8d6d5a1e627`
 - Steam Japanese `sharedassets0.assets`: `3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8`
-- Steam English `sharedassets0.assets`: `bb397d3909a6d8c6da6f21122cee78e9fcc0b5018049f78ce1e085bfdbeb1dda`
-- Canonical translation TSV: `7bdb991a881425bc123ae28e5164435f7df78ec54e4e6646ff66fccb8516228a`
-- Runtime-visible Steam corpus: `89b92548d7019d7550dfd9040fb052410cab4b283e0852fd72fa2c82638aa0c7`
+- Steam English `sharedassets0.assets`: `c253c410404fe9fda9a242e3217ec1b8d7479bb30a66f426768a96313cdb59bc`
+- Canonical translation TSV: `1ad73fa502627500d1ac56bf5bd18de530b8296288fb5676cfaab7a467e24a3b`
+- Runtime-visible Steam corpus: `27f89a6aee7a5bcb7822d0d9f4e24096fed613b267a2cb8dd50aa53bebce7ddd`
 - Final Tips manuscript: `d8dd6a496dc020f96e6ca558f7ba7ee140a1d7a217a697ce0c765c072615e17a`
 
-The verification records cover the complete semantic audit, Steam compilation,
-archive topology and member hashes, clean installation,
+The verification records cover the complete single-author literary revision,
+Steam compilation, archive topology and member hashes, clean installation,
 repeated installation, Japanese restoration, fast reinstallation, corruption
-rejection, transactional rollback, exact page-control projection, and Wine
-runtime checks for the supported Steam release.
+rejection, transactional rollback, and exact page-control projection. This
+release is statically verified; no new game-launch claim is made for v1.2.0.
 
 ## Credits
 

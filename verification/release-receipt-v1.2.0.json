@@ -1,0 +1,14 @@
+{
+  "archive": {
+    "bytes": 7058971,
+    "member_hashes_verified": true,
+    "members": 34,
+    "name": "BLACK_SHEEP_TOWN_English_v1.2.0.zip",
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/bst-complete-patcher-mao/steam-only-release-v1_2_0/BLACK_SHEEP_TOWN_English_v1.2.0.zip",
+    "sha256": "5c482544eaa7c581691c1de65845992b40437ab0deae33e9fc03a8d6d5a1e627"
+  },
+  "format": "mao-bst-release-receipt-v5",
+  "package_manifest_sha256": "3824cb9d5b1692f63470267d559648b5f69820e5791b0d26a9d7a5ca07261827",
+  "release": "v1.2.0",
+  "status": "static_verified"
+}
