@@ -1,0 +1,14 @@
+{
+  "archive": {
+    "bytes": 7058547,
+    "member_hashes_verified": true,
+    "members": 34,
+    "name": "BLACK_SHEEP_TOWN_English_v1.2.1.zip",
+    "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/tips-ui-fix-v1/release-v1.2.1/BLACK_SHEEP_TOWN_English_v1.2.1.zip",
+    "sha256": "4f09ec06e718a205cd3cbb4fabd9ba755c72b30f6117e16ba3165718f333af22"
+  },
+  "format": "mao-bst-release-receipt-v5",
+  "package_manifest_sha256": "9440e99e8c3ab4858d353a84d1db1eb0664b50e63800bdcf29ddb6951b8eca58",
+  "release": "v1.2.1",
+  "status": "static_verified"
+}

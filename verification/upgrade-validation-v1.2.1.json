@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": {
+    "direct_prior_english_rejected_without_changes": true,
+    "old_restore_new_install": true,
+    "new_restore_after_upgrade": true,
+    "old_english_cache_preserved": true,
+    "new_fast_reinstall_after_upgrade": true
+  },
+  "old_target_sha256": "d2406ac95c7af0b29d3e40cd60d2685457cc29735e34c358a7b4da45151279e0",
+  "new_target_sha256": "07b25694a7a11fba4191663ddab414ae6846e4bb0d72df5badb4cbd730d6d0a2",
+  "new_installer_sha256": "2cdcccd875ce7421c0a4716a1314003f24f1b7d814dc259946e11705c3c6e2ea",
+  "platform": "macOS Python; game not launched"
+}

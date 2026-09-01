@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "english_descriptions_have_no_linebreaks": true,
+    "english_pronunciation_fields_blank": true,
+    "english_titles_and_descriptions_cjk_free": true,
+    "sentence_join_spacing_complete": true,
+    "story_script_unchanged_from_v1.2.0": true,
+    "tips_data_only_runtime_object_changed": true
+  },
+  "counts": {
+    "english_pronunciation_fields_nonblank": 0,
+    "sentence_join_spacing_failures": 0,
+    "tips_entries": 211,
+    "visible_japanese_failures": 0
+  },
+  "format": "mao-bst-tips-ui-validation-v1",
+  "release": "v1.2.1",
+  "runtime_object": {
+    "name": "TipsData",
+    "path_id": 904
+  },
+  "sharedassets0_sha256": "07b25694a7a11fba4191663ddab414ae6846e4bb0d72df5badb4cbd730d6d0a2",
+  "status": "static_verified"
+}
