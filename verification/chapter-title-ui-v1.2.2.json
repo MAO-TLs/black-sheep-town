@@ -1,0 +1,18 @@
+{
+  "format": "mao-bst-chapter-title-ui-v1",
+  "chapter_bindings": 63,
+  "changed_existing_objects": 66,
+  "added_objects": 4,
+  "source_sha256": "6df0616cdd7aa69c32046cfd4c02de2ce194b18f87019594ad8f5e0d18d69464",
+  "english_shared_sha256": "07b25694a7a11fba4191663ddab414ae6846e4bb0d72df5badb4cbd730d6d0a2",
+  "output_sha256": "2ee94bcbb6cb8c9ffb134a63e20b735daa0dfa9e8f48e42c12206b1c1f8df6e0",
+  "narrative_assets_modified": false,
+  "unlock_controls_modified": false,
+  "title_rect_preserved": true,
+  "font_range": [
+    18,
+    31
+  ],
+  "runtime_visual_verified": false,
+  "status": "candidate_static_checks_passed"
+}
