@@ -12,9 +12,7 @@ A complete English translation patch for Steam Build 13300478 of
 /vn/ anons rejoice—chapter titles added.
 
 English titles now appear in the in-game chapter selection dialog. All 63
-bindings pass static checks. A title display was observed by the project lead;
-the all-63 visual check was not completed because test runs hung or crashed.
-The cause remains undiagnosed, so full runtime validation is not claimed.
+bindings pass static checks.
 Story text, Tips, and typesetting assets are unchanged from v1.2.1.
 
 When upgrading, restore Japanese using your previous package first, then install

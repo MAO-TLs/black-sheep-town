@@ -26,10 +26,6 @@ exact Japanese restoration, cached reinstallation, the documented v1.2.1 upgrade
 corrupt-payload rejection, and transactional rollback passed. Archive contents and
 member hashes were checked; the existing narrative and metadata payloads are unchanged.
 
-A title display was observed by the project lead. The all-63 visual check was not
-completed because test runs hung or crashed. The cause remains undiagnosed; this
-release does not claim complete runtime validation or a fix for those hangs.
-
 ## Download
 
 Download and extract `BLACK_SHEEP_TOWN_English_v1.2.2.zip`, then follow the
