@@ -1,0 +1,15 @@
+{
+  "release": "v1.2.3",
+  "tips_count": 211,
+  "changed_object_ids": [
+    904
+  ],
+  "change": "Restore original pronunciation index keys; retain English title/text and all unlock fields",
+  "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
+  "previous_sha256": "07b25694a7a11fba4191663ddab414ae6846e4bb0d72df5badb4cbd730d6d0a2",
+  "target_sha256": "256890f024e5132d7c89661c84bf4e186a174f4c868a9351d4229f78b7841942",
+  "source_index_parity": true,
+  "other_objects_byte_identical": true,
+  "runtime_visual_verified": false,
+  "archive_sha256": "b9f9cdf666df97dc89bbb74a491d51e2bc1ce28241c0de717fc4a278d3fbb0aa"
+}
