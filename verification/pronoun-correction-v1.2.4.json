@@ -1,0 +1,65 @@
+{
+  "all_other_objects_byte_identical": true,
+  "changed_object_ids": [
+    895
+  ],
+  "changed_runtime_cells": [
+    [
+      "X3-2:r122",
+      177,
+      8
+    ],
+    [
+      "X3-2:r122",
+      177,
+      12
+    ],
+    [
+      "X3-2:r124",
+      179,
+      8
+    ],
+    [
+      "X3-2:r124",
+      179,
+      12
+    ],
+    [
+      "X3-2:r191",
+      281,
+      8
+    ],
+    [
+      "X3-2:r191",
+      281,
+      12
+    ],
+    [
+      "X17:r293",
+      363,
+      8
+    ],
+    [
+      "X17:r293",
+      363,
+      12
+    ]
+  ],
+  "compiled_visible_sha256": "8e1eb8183021a27e2d99ec86a62ffb0e4a8cabc6e262f6c4606817018a96dc0d",
+  "editorial_sha256": "d7523c561889505095990c5852b039c67c2be36d4281e8484ccd1c865df48c56",
+  "japanese_and_markup_preserved": true,
+  "layout_and_page_controls_preserved": true,
+  "only_four_english_rows_changed": true,
+  "previous_sha256": "256890f024e5132d7c89661c84bf4e186a174f4c868a9351d4229f78b7841942",
+  "refs": [
+    "X3-2:r122",
+    "X3-2:r124",
+    "X3-2:r191",
+    "X17:r293"
+  ],
+  "release": "v1.2.4",
+  "runtime_visual_verified": false,
+  "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
+  "target_sha256": "7b66876b0b71e2bb05c36a83c204a13352dc860b4f27d2c68acedd071c65ce92",
+  "tips_data_byte_identical": true
+}

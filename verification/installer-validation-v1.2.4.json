@@ -1,0 +1,15 @@
+{
+  "release": "v1.2.4",
+  "checks_passed": [
+    "archive topology, CRC, and all member hashes",
+    "v1.2.3 chapter-title and metadata payloads unchanged",
+    "clean install, verify, repeat install; all three target hashes",
+    "exact Japanese restore and cached reinstall",
+    "v1.2.3 direct mixed-state rejection; documented restore-then-upgrade",
+    "corrupt third payload rejected and previous components rolled back"
+  ],
+  "chapter_bindings": 63,
+  "all_63_runtime_visual_verified": false,
+  "game_launched": false,
+  "archive_sha256": "e8917de3185d205f83b77a8c7a374bf3535f6246434c90b5ca2085e1641ef683"
+}
