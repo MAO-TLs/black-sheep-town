@@ -1,2 +1,4 @@
 * text=auto eol=lf
 *.tsv text eol=lf whitespace=-blank-at-eol
+# Preserve the exact release manuscript bytes bound by the v1.2.5 receipts.
+translation/BLACK_SHEEP_TOWN_MAO_English_v1.2.5.tsv -text
