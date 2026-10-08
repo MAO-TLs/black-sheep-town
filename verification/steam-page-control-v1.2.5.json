@@ -1,0 +1,2599 @@
+{
+  "checks": {
+    "all_japanese_page_boundaries_retained": true,
+    "all_visible_english_refs_projected_once": true,
+    "english_only_breaks_at_sentence_or_unavoidable_clause_boundaries": true,
+    "english_overflow_clears_only_at_input_waits": true,
+    "every_live_page_within_active_window": true,
+    "full_compiled_grid_projection_exact": true,
+    "japanese_input_br_accumulates_when_english_fits": true,
+    "steam_b1_window4_overflow_regression": true,
+    "steam_in_word_apostrophe_breaks_blocked": true,
+    "steam_x6_window15_overflow_regression": true
+  },
+  "engine_safe_apostrophes": 12249,
+  "english": {
+    "accumulating_segments": 23047,
+    "english_only_break_boundaries": [
+      {
+        "kind": "sentence",
+        "route": "A1",
+        "row_index": 162,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A1",
+        "row_index": 180,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A1",
+        "row_index": 207,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A1",
+        "row_index": 573,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-1",
+        "row_index": 204,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-1",
+        "row_index": 301,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 13,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 84,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 337,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 373,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 388,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 416,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 453,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 459,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 464,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 483,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 563,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 571,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A2-2",
+        "row_index": 612,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 87,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 126,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 158,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 169,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 298,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 363,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 387,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 582,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 798,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 856,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A3",
+        "row_index": 916,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 59,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 86,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 152,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 377,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 394,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 418,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 450,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 468,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A4",
+        "row_index": 540,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 13,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 25,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 40,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 88,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 129,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 164,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 200,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 257,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 330,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 405,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 462,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 601,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 722,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 855,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 933,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 967,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A5",
+        "row_index": 976,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 51,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 180,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 199,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 218,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 230,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 373,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 464,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 471,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 517,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 526,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 543,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 555,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 572,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 628,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 652,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 657,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "clause",
+        "route": "A6",
+        "row_index": 684,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "A6",
+        "row_index": 689,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A7",
+        "row_index": 17,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A7",
+        "row_index": 25,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A7",
+        "row_index": 65,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A7",
+        "row_index": 137,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A7",
+        "row_index": 150,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 31,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 35,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 153,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 173,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 244,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 344,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 385,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 390,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 485,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 496,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 580,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 585,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 596,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 599,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 605,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 609,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 620,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 688,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 753,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 796,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "A8",
+        "row_index": 800,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B1",
+        "row_index": 140,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B1",
+        "row_index": 525,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B1",
+        "row_index": 570,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 23,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 246,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 365,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 513,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B2",
+        "row_index": 542,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-1",
+        "row_index": 65,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-1",
+        "row_index": 78,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-1",
+        "row_index": 146,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-1",
+        "row_index": 271,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-2",
+        "row_index": 13,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-2",
+        "row_index": 184,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-2",
+        "row_index": 346,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B3-2",
+        "row_index": 369,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B4-1",
+        "row_index": 182,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 41,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 53,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 279,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 313,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 314,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 328,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 339,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B5",
+        "row_index": 566,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 23,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 51,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 159,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 230,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 281,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 462,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 680,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 772,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 785,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 811,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 1092,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "B6",
+        "row_index": 1097,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 36,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 100,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 147,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 295,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 316,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 326,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C1",
+        "row_index": 336,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 16,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 40,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 97,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 104,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 159,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 190,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 274,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 288,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 313,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 330,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 455,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 472,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 597,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 626,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C2",
+        "row_index": 632,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 30,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 37,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 255,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 306,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C3",
+        "row_index": 381,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 12,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 270,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 288,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "C4",
+        "row_index": 411,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 43,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 49,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 64,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 68,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 88,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 238,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 322,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D1",
+        "row_index": 496,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D2",
+        "row_index": 24,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D2",
+        "row_index": 166,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D2",
+        "row_index": 334,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D3",
+        "row_index": 152,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D3",
+        "row_index": 287,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D3",
+        "row_index": 340,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D3",
+        "row_index": 381,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D3",
+        "row_index": 474,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 12,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 41,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 86,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 128,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 171,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 270,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 413,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "D5",
+        "row_index": 419,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 111,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 122,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 136,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 185,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 193,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 204,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 224,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 232,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 243,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 247,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 251,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 298,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E1",
+        "row_index": 319,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 15,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 168,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 200,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 237,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 264,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 289,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 352,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 386,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 461,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 565,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 570,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 575,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E2",
+        "row_index": 599,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E3",
+        "row_index": 72,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E3",
+        "row_index": 209,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E3",
+        "row_index": 445,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 163,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 213,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 217,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 240,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 281,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 499,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 510,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 536,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E4",
+        "row_index": 660,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 77,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 84,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E5",
+        "row_index": 262,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 170,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 223,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 318,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E6",
+        "row_index": 375,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "E7",
+        "row_index": 247,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 28,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 136,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 382,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 430,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 469,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 501,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 527,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F1",
+        "row_index": 533,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F2",
+        "row_index": 228,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F2",
+        "row_index": 234,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F2",
+        "row_index": 530,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F2",
+        "row_index": 614,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F3",
+        "row_index": 232,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F3",
+        "row_index": 250,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 14,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 105,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 382,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 422,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F4",
+        "row_index": 506,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "F5",
+        "row_index": 180,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G1",
+        "row_index": 17,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G2",
+        "row_index": 6,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "G2",
+        "row_index": 25,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G2",
+        "row_index": 355,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G2",
+        "row_index": 621,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 109,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 113,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 120,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 165,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "G3",
+        "row_index": 444,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X10",
+        "row_index": 162,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X10",
+        "row_index": 369,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X10",
+        "row_index": 373,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X11",
+        "row_index": 6,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X11",
+        "row_index": 51,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X11",
+        "row_index": 280,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X11",
+        "row_index": 320,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X11",
+        "row_index": 384,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X12",
+        "row_index": 17,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X12",
+        "row_index": 137,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X12",
+        "row_index": 147,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X12",
+        "row_index": 180,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 131,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 213,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 242,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X13",
+        "row_index": 259,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X14",
+        "row_index": 53,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X14",
+        "row_index": 475,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-1",
+        "row_index": 27,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-1",
+        "row_index": 53,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-2",
+        "row_index": 227,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X15-2",
+        "row_index": 407,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 258,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 975,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X16",
+        "row_index": 996,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X17",
+        "row_index": 15,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X17",
+        "row_index": 115,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X17",
+        "row_index": 148,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X17",
+        "row_index": 206,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X18",
+        "row_index": 180,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X19",
+        "row_index": 400,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X19",
+        "row_index": 422,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "clause",
+        "route": "X19",
+        "row_index": 467,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X19",
+        "row_index": 472,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 68,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 90,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 95,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 100,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 156,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 168,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 198,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 226,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 244,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 286,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 324,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 330,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 333,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 338,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 378,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-1",
+        "row_index": 397,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 125,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 144,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 203,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 225,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 238,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 259,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 270,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 284,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 291,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 295,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 333,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X2-2",
+        "row_index": 461,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 39,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 122,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 125,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 134,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 199,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 262,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 320,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 381,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 386,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-1",
+        "row_index": 438,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 197,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 329,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 349,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 377,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 452,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 724,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 754,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 905,
+        "translated_row_continuation": true
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 912,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-2",
+        "row_index": 927,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 122,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 191,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 427,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 451,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X3-3",
+        "row_index": 475,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X4",
+        "row_index": 8,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X4",
+        "row_index": 245,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X4",
+        "row_index": 322,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X6-1",
+        "row_index": 66,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X6-1",
+        "row_index": 285,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X6-2",
+        "row_index": 474,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 35,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 294,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 538,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 587,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 712,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X7",
+        "row_index": 717,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X8",
+        "row_index": 70,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X8",
+        "row_index": 123,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X8",
+        "row_index": 340,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X8",
+        "row_index": 516,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X9",
+        "row_index": 139,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X9",
+        "row_index": 250,
+        "translated_row_continuation": false
+      },
+      {
+        "kind": "sentence",
+        "route": "X9",
+        "row_index": 256,
+        "translated_row_continuation": false
+      }
+    ],
+    "english_only_page_breaks": 374,
+    "japanese_page_boundaries_retained": 6347,
+    "max_page_visual_lines": 17,
+    "max_visual_line_characters": 123,
+    "page_visual_line_histogram": {
+      "1": 187,
+      "10": 585,
+      "11": 541,
+      "12": 586,
+      "13": 540,
+      "14": 513,
+      "15": 440,
+      "16": 317,
+      "17": 186,
+      "2": 300,
+      "3": 319,
+      "4": 335,
+      "5": 283,
+      "6": 286,
+      "7": 326,
+      "8": 464,
+      "9": 513
+    },
+    "projected_refs": 29753,
+    "rendered_pages": 6721,
+    "text_segments": 29768,
+    "unavoidable_clause_continuations": 2
+  },
+  "format": "mao-bst-page-control-parity-v1",
+  "inputs": {
+    "frozen_rows": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/punctuation-fix-v1.2.5/steam_compiled_visible_rows.tsv",
+      "sha256": "8ed31bbc13815ac1051d0809cc0d2739c8c1a217eabc3224dabf3ea22c4833a2"
+    },
+    "output": {
+      "path": "/Users/fletcher/Documents/Codex/2026-07-13/https-www-baka-tsuki-org-project/outputs/black-sheep-town/private/punctuation-fix-v1.2.5/sharedassets0.assets",
+      "sha256": "bd8ad463bd55de022d17497eab44762e8813a93fb802ac964a6fc604257ebdb9"
+    },
+    "schema_bundle": {
+      "path": "/Users/fletcher/Downloads/BLACK.SHEEP.TOWN.Build.13300478/Bst_Data/StreamingAssets/Windows/bst.scenarios.asset",
+      "sha256": "c9f756aaaedcb022cc8e7d0b088b690078c3237162922a49c29968b6650421b0"
+    },
+    "source": {
+      "path": "/Users/fletcher/Downloads/BLACK.SHEEP.TOWN.Build.13300478/Bst_Data/sharedassets0.assets",
+      "sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8"
+    }
+  },
+  "message_windows": {
+    "MessageWindow1": {
+      "english_projection_line_limit": 17,
+      "estimated_japanese_line_maximum": 18,
+      "max_visual_lines": 17,
+      "pages": 4629,
+      "visual_line_histogram": {
+        "1": 7,
+        "10": 482,
+        "11": 484,
+        "12": 537,
+        "13": 480,
+        "14": 460,
+        "15": 389,
+        "16": 284,
+        "17": 179,
+        "2": 22,
+        "3": 34,
+        "4": 77,
+        "5": 92,
+        "6": 156,
+        "7": 220,
+        "8": 331,
+        "9": 395
+      }
+    },
+    "MessageWindow10": {
+      "english_projection_line_limit": 17,
+      "estimated_japanese_line_maximum": 14,
+      "max_visual_lines": 17,
+      "pages": 30,
+      "visual_line_histogram": {
+        "10": 4,
+        "11": 2,
+        "12": 2,
+        "13": 1,
+        "14": 2,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "4": 2,
+        "6": 3,
+        "7": 3,
+        "8": 4,
+        "9": 4
+      }
+    },
+    "MessageWindow11": {
+      "english_projection_line_limit": 17,
+      "estimated_japanese_line_maximum": 16,
+      "max_visual_lines": 17,
+      "pages": 63,
+      "visual_line_histogram": {
+        "10": 8,
+        "11": 10,
+        "12": 4,
+        "13": 5,
+        "14": 2,
+        "15": 7,
+        "16": 4,
+        "17": 4,
+        "4": 1,
+        "5": 5,
+        "6": 4,
+        "7": 1,
+        "8": 5,
+        "9": 3
+      }
+    },
+    "MessageWindow12": {
+      "english_projection_line_limit": 2,
+      "estimated_japanese_line_maximum": 2,
+      "max_visual_lines": 2,
+      "pages": 66,
+      "visual_line_histogram": {
+        "1": 41,
+        "2": 25
+      }
+    },
+    "MessageWindow13": {
+      "english_projection_line_limit": 17,
+      "estimated_japanese_line_maximum": 14,
+      "max_visual_lines": 17,
+      "pages": 7,
+      "visual_line_histogram": {
+        "10": 2,
+        "12": 1,
+        "15": 1,
+        "17": 2,
+        "9": 1
+      }
+    },
+    "MessageWindow14": {
+      "english_projection_line_limit": 17,
+      "estimated_japanese_line_maximum": 13,
+      "max_visual_lines": 14,
+      "pages": 5,
+      "visual_line_histogram": {
+        "11": 1,
+        "14": 2,
+        "2": 1,
+        "5": 1
+      }
+    },
+    "MessageWindow15": {
+      "english_projection_line_limit": 5,
+      "estimated_japanese_line_maximum": 7,
+      "max_visual_lines": 5,
+      "pages": 387,
+      "visual_line_histogram": {
+        "1": 59,
+        "2": 120,
+        "3": 104,
+        "4": 59,
+        "5": 45
+      }
+    },
+    "MessageWindow16": {
+      "english_projection_line_limit": 4,
+      "estimated_japanese_line_maximum": 4,
+      "max_visual_lines": 4,
+      "pages": 26,
+      "visual_line_histogram": {
+        "2": 6,
+        "3": 9,
+        "4": 11
+      }
+    },
+    "MessageWindow17": {
+      "english_projection_line_limit": 1,
+      "estimated_japanese_line_maximum": 1,
+      "max_visual_lines": 1,
+      "pages": 27,
+      "visual_line_histogram": {
+        "1": 27
+      }
+    },
+    "MessageWindow18": {
+      "english_projection_line_limit": 1,
+      "estimated_japanese_line_maximum": 1,
+      "max_visual_lines": 1,
+      "pages": 1,
+      "visual_line_histogram": {
+        "1": 1
+      }
+    },
+    "MessageWindow2": {
+      "english_projection_line_limit": 16,
+      "estimated_japanese_line_maximum": 15,
+      "max_visual_lines": 16,
+      "pages": 254,
+      "visual_line_histogram": {
+        "1": 1,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 31,
+        "14": 28,
+        "15": 29,
+        "16": 15,
+        "2": 3,
+        "3": 7,
+        "4": 9,
+        "5": 8,
+        "6": 11,
+        "7": 11,
+        "8": 20,
+        "9": 21
+      }
+    },
+    "MessageWindow3": {
+      "english_projection_line_limit": 16,
+      "estimated_japanese_line_maximum": 16,
+      "max_visual_lines": 16,
+      "pages": 223,
+      "visual_line_histogram": {
+        "10": 19,
+        "11": 23,
+        "12": 21,
+        "13": 23,
+        "14": 18,
+        "15": 13,
+        "16": 13,
+        "3": 3,
+        "4": 4,
+        "5": 2,
+        "6": 21,
+        "7": 21,
+        "8": 23,
+        "9": 19
+      }
+    },
+    "MessageWindow4": {
+      "english_projection_line_limit": 4,
+      "estimated_japanese_line_maximum": 4,
+      "max_visual_lines": 4,
+      "pages": 229,
+      "visual_line_histogram": {
+        "1": 33,
+        "2": 65,
+        "3": 78,
+        "4": 53
+      }
+    },
+    "MessageWindow5": {
+      "english_projection_line_limit": 6,
+      "estimated_japanese_line_maximum": 7,
+      "max_visual_lines": 6,
+      "pages": 99,
+      "visual_line_histogram": {
+        "1": 4,
+        "2": 4,
+        "3": 7,
+        "4": 29,
+        "5": 40,
+        "6": 15
+      }
+    },
+    "MessageWindow6": {
+      "english_projection_line_limit": 5,
+      "estimated_japanese_line_maximum": 5,
+      "max_visual_lines": 5,
+      "pages": 132,
+      "visual_line_histogram": {
+        "1": 5,
+        "2": 17,
+        "3": 36,
+        "4": 41,
+        "5": 33
+      }
+    },
+    "MessageWindow7": {
+      "english_projection_line_limit": 10,
+      "estimated_japanese_line_maximum": 10,
+      "max_visual_lines": 10,
+      "pages": 55,
+      "visual_line_histogram": {
+        "10": 3,
+        "2": 1,
+        "3": 2,
+        "4": 10,
+        "5": 9,
+        "6": 7,
+        "7": 9,
+        "8": 8,
+        "9": 6
+      }
+    },
+    "MessageWindow8": {
+      "english_projection_line_limit": 10,
+      "estimated_japanese_line_maximum": 10,
+      "max_visual_lines": 10,
+      "pages": 479,
+      "visual_line_histogram": {
+        "1": 9,
+        "10": 46,
+        "2": 36,
+        "3": 39,
+        "4": 39,
+        "5": 48,
+        "6": 68,
+        "7": 61,
+        "8": 72,
+        "9": 61
+      }
+    },
+    "MessageWindow9": {
+      "english_projection_line_limit": 16,
+      "estimated_japanese_line_maximum": 12,
+      "max_visual_lines": 14,
+      "pages": 9,
+      "visual_line_histogram": {
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1,
+        "6": 1,
+        "8": 1,
+        "9": 3
+      }
+    }
+  },
+  "platform": "steam",
+  "source": {
+    "input_br_rows": 23408,
+    "page_boundaries": 6347
+  },
+  "status": "passed",
+  "verification": "page_control_parity_verified"
+}

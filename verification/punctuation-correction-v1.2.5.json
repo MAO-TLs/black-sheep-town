@@ -1,0 +1,158 @@
+{
+  "all_other_objects_byte_identical": true,
+  "change": "Replace ten quote-final periods with commas before continued dialogue attribution",
+  "changed_object_ids": [
+    888,
+    889,
+    892,
+    893,
+    894,
+    895
+  ],
+  "changed_runtime_cells": [
+    [
+      "A4:r393",
+      "bst_a.book",
+      512,
+      8
+    ],
+    [
+      "A4:r393",
+      "bst_a.book",
+      512,
+      12
+    ],
+    [
+      "A6:r329",
+      "bst_a.book",
+      407,
+      8
+    ],
+    [
+      "A6:r329",
+      "bst_a.book",
+      407,
+      12
+    ],
+    [
+      "B4-1:r326",
+      "bst_b.book",
+      429,
+      8
+    ],
+    [
+      "B4-1:r326",
+      "bst_b.book",
+      429,
+      12
+    ],
+    [
+      "E5:r174",
+      "bst_e.book",
+      235,
+      8
+    ],
+    [
+      "E5:r174",
+      "bst_e.book",
+      235,
+      12
+    ],
+    [
+      "F4:r369",
+      "bst_f .book",
+      517,
+      8
+    ],
+    [
+      "F4:r369",
+      "bst_f .book",
+      517,
+      12
+    ],
+    [
+      "G1:r60",
+      "bst_g.book",
+      84,
+      8
+    ],
+    [
+      "G1:r60",
+      "bst_g.book",
+      84,
+      12
+    ],
+    [
+      "x1:r271",
+      "bst_x.book",
+      328,
+      8
+    ],
+    [
+      "x1:r271",
+      "bst_x.book",
+      328,
+      12
+    ],
+    [
+      "X11:r585",
+      "bst_x.book",
+      793,
+      8
+    ],
+    [
+      "X11:r585",
+      "bst_x.book",
+      793,
+      12
+    ],
+    [
+      "X3-3:r41",
+      "bst_x.book",
+      59,
+      8
+    ],
+    [
+      "X3-3:r41",
+      "bst_x.book",
+      59,
+      12
+    ],
+    [
+      "X3-3:r101",
+      "bst_x.book",
+      147,
+      8
+    ],
+    [
+      "X3-3:r101",
+      "bst_x.book",
+      147,
+      12
+    ]
+  ],
+  "compiled_visible_sha256": "8ed31bbc13815ac1051d0809cc0d2739c8c1a217eabc3224dabf3ea22c4833a2",
+  "editorial_sha256": "5070d46184547b50d554f698e301d75f82994ce407b56449a5d62b64d5c245d6",
+  "japanese_and_markup_preserved": true,
+  "layout_and_page_controls_preserved": true,
+  "only_ten_english_rows_changed": true,
+  "previous_pronoun_corrections_preserved": true,
+  "previous_sha256": "7b66876b0b71e2bb05c36a83c204a13352dc860b4f27d2c68acedd071c65ce92",
+  "refs": [
+    "A4:r393",
+    "A6:r329",
+    "B4-1:r326",
+    "E5:r174",
+    "F4:r369",
+    "G1:r60",
+    "x1:r271",
+    "X11:r585",
+    "X3-3:r41",
+    "X3-3:r101"
+  ],
+  "release": "v1.2.5",
+  "runtime_visual_verified": false,
+  "source_sha256": "3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8",
+  "target_sha256": "bd8ad463bd55de022d17497eab44762e8813a93fb802ac964a6fc604257ebdb9",
+  "tips_data_byte_identical": true
+}
