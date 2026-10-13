@@ -1,0 +1,17 @@
+{
+  "release": "v1.3.0",
+  "checks_passed": [
+    "archive topology, CRC, and all member hashes",
+    "v1.2.5 chapter-title and metadata payloads unchanged",
+    "all 29753 reader rows match frozen game text; source, Tips and speaker metadata unchanged",
+    "clean install, verify, repeat install; all three target hashes",
+    "exact Japanese restore and cached reinstall",
+    "v1.2.5 direct mixed-state rejection; documented restore-then-upgrade",
+    "corrupt third payload rejected and previous components rolled back"
+  ],
+  "chapter_bindings": 63,
+  "all_63_runtime_visual_verified": false,
+  "game_launched": false,
+  "accepted_revision_rows": 108,
+  "archive_sha256": "d53eb49f6647518af2675280eb3628da35882a1682172bd67be1897386c6a195"
+}
