@@ -50,7 +50,7 @@ contains binary differences and original MAO files, not the Japanese game.
 
 ## Integrity
 
-- Patch archive SHA-256: `d53eb49f6647518af2675280eb3628da35882a1682172bd67be1897386c6a195`
+- Patch archive SHA-256: `38f60933763459befc897095612482c202249a1ff04e1c3f1c2ef67b84089a39`
 - Steam Japanese `sharedassets0.assets`: `3246bf3b15e275eacbcb2dc2c89d3e00a7d256d5ba52d9401159bed1f0102cb8`
 - Steam English `sharedassets0.assets`: `13984a7e4d7b37bf12859276f76ba85bbbb21b22beddf9237c726076f9c95efa`
 - Canonical translation TSV: `fe2ba7e5b0eaf55e3624ef7b6b4d4f68eddedac63a96be36d5850078ef784473`
@@ -66,8 +66,7 @@ files remain historical records; the v1.3.0 reports describe this release.
 ## Credits
 
 - Project Lead: MAO
-- Translator: GPT-5.6 Sol
-- Editorial review: GPT-6 Astra
+- Translator: GPT-6 Astra
 - Special Thanks: gambs
 
 This is an unofficial, noncommercial fan translation. The original work and

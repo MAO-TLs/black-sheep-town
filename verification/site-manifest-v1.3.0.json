@@ -1,9 +1,9 @@
 {
   "archive": {
-    "bytes": 7137520,
+    "bytes": 7137509,
     "download_url": "https://github.com/MAO-TLs/black-sheep-town/releases/download/v1.3.0/BLACK_SHEEP_TOWN_English_v1.3.0.zip",
     "name": "BLACK_SHEEP_TOWN_English_v1.3.0.zip",
-    "sha256": "d53eb49f6647518af2675280eb3628da35882a1682172bd67be1897386c6a195"
+    "sha256": "38f60933763459befc897095612482c202249a1ff04e1c3f1c2ef67b84089a39"
   },
   "builds": {
     "steam-build-13300478": {
@@ -73,7 +73,7 @@
     },
     "browser_manifest.json": {
       "bytes": 3995,
-      "sha256": "333dbc5fbd48d5bec9daed4b307c526af3bece1a09392a873e7f7d57444755b3"
+      "sha256": "a3fe92e8c2254fb677e2f94078a46889e4380d1c2319908190d52149f617402c"
     },
     "bst-city-ink-hero-v1.png": {
       "bytes": 1122010,
@@ -88,8 +88,8 @@
       "sha256": "ee489509d4f3f671dc885e63ef4f8bcea741b1ee183f55d55c7102952ba53da8"
     },
     "index.html": {
-      "bytes": 6490,
-      "sha256": "c613ea0848feebf995f988d1f6da3770b6be587f984371a0cd08247203f4dbcc"
+      "bytes": 6425,
+      "sha256": "6e6d1d3ffe3657b8d15ee6d71478a8ced4b6c2655906c470d52436c91a76a270"
     },
     "mao-publication-template.css": {
       "bytes": 3375,
@@ -124,7 +124,7 @@
     "all_63_runtime_visual_verified": false,
     "game_launched": false,
     "accepted_revision_rows": 108,
-    "archive_sha256": "d53eb49f6647518af2675280eb3628da35882a1682172bd67be1897386c6a195"
+    "archive_sha256": "38f60933763459befc897095612482c202249a1ff04e1c3f1c2ef67b84089a39"
   },
   "pronoun_correction": {
     "all_other_objects_byte_identical": true,

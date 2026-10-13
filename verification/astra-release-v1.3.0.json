@@ -3525,6 +3525,6 @@
   "tips_data_byte_identical": true,
   "system_ui_byte_identical": true,
   "baseline_projection_verified_before_reflow": true,
-  "archive_sha256": "d53eb49f6647518af2675280eb3628da35882a1682172bd67be1897386c6a195",
-  "archive_bytes": 7137520
+  "archive_sha256": "38f60933763459befc897095612482c202249a1ff04e1c3f1c2ef67b84089a39",
+  "archive_bytes": 7137509
 }
